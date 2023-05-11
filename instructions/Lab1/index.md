@@ -36,28 +36,28 @@ login using API Manager User Registry not Common Services
 registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab1)
+service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab2)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab3)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab4)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab5)
+Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab6)
+Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab7)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab8)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
  Import API to the Developer Workspace
 ===========================================================================================
@@ -105,11 +105,11 @@ for HotelReview. Then, we will import it to the online workspace.
     file the dte-labs git repository using the following command.
 
     ```
-    curl -OL https://raw.githubusercontent.com/ibm-cloudintegration/dte-labs/master/APICv10/hotelreview.yaml
+    curl -OL https://raw.githubusercontent.com/ibm-ecosystem-lab/APICv10/main/hotelreview.yaml
 
     ```
 
-    You can also down the file using this link : [hotelreview.yaml](https://integrationsuperhero.github.io/techcon2020/APICDevJam/resources/hotelreview.yaml)
+    You can also down the file using this link : [hotelreview.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/hotelreview.yaml)
 
     Choose the downloaded
     [[HotelReview.yaml]] OpenAPI
@@ -223,13 +223,13 @@ will configure the proxy call to invoke the endpoint.
     targets for the service.
 
 3.  In the **[Default value]** text field,
-    type [https://apic-pot-hotelreview-api.mybluemix.net](https://apic-pot-hotelreview-api.mybluemix.net/)**[.]**
+    type [http://hotelreview-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/)**[.]**
 
 4.  Click **[Add.]**
 
 5.  Choose the **[Sandbox catalog]** and
     for the URL
-    type [https://apic-pot-hotelreview-api.mybluemix.net](https://apic-pot-hotelreview-api.mybluemix.net/)
+    type [http://hotelreview-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/)
 
 ![](images/tutorial_html_f977429f6db6091a.png)
 
@@ -347,7 +347,7 @@ lab is written to the gateway. 
 8.  The Product is now published successfully with the API base URL
     listed and available for developers from the developer portal. Go
     to [APIC (v10) Dev Jam - Lab 2 - The Developer Portal
-    Experience](https://integrationsuperhero.github.io/techcon2020/APICDevJam/Lab2) to
+    Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2) to
     see how to access this API as a developer.
 
  Summary
@@ -368,5 +368,5 @@ API. Throughout the tutorial, you explored the key takeaways:
 
 Continue the APIC Dev Jam! Go to [APIC Dev Jam Lab 2 - The Developer
 Portal
-Experience](https://integrationsuperhero.github.io/techcon2020/APICDevJam/Lab2) to
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2) to
 learn how to socialize this API and make it available to developers.
