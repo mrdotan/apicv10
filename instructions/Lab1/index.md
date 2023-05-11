@@ -2,7 +2,7 @@
 
 In this lab, you will get a chance to use the online APIC Developer
 Toolkit and its intuitive interface to create a new API using the
-OpenAPI definition (YAML) of the existing product inventory RESTful
+OpenAPI definition (YAML) of the existing product HotelReview RESTful
 web-service.
 
 In this tutorial, you will explore the following key capabilities:
@@ -63,7 +63,7 @@ API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instru
 ===========================================================================================
 
 First, we will download the OpenApi file for the existing REST service
-for Inventory. Then, we will import it to the online workspace.
+for HotelReview. Then, we will import it to the online workspace.
 
 1.  Open a browser window to the API Manager Portal. If the screen
     displays [[\"Your connection is not
@@ -101,18 +101,18 @@ for Inventory. Then, we will import it to the online workspace.
 
     ![](images/tutorial_html_b219e12b9ba30a1c.png)  
 
-6.  Now download the[[Inventory.yaml]] 
+6.  Now download the[[HotelReview.yaml]] 
     file the dte-labs git repository using the following command.
 
     ```
-    curl -OL https://raw.githubusercontent.com/ibm-cloudintegration/dte-labs/master/APICv10/inventory.yaml
+    curl -OL https://raw.githubusercontent.com/ibm-cloudintegration/dte-labs/master/APICv10/hotelreview.yaml
 
     ```
 
-    You can also down the file using this link : [inventory.yaml](https://integrationsuperhero.github.io/techcon2020/APICDevJam/resources/inventory.yaml)
+    You can also down the file using this link : [hotelreview.yaml](https://integrationsuperhero.github.io/techcon2020/APICDevJam/resources/hotelreview.yaml)
 
     Choose the downloaded
-    [[Inventory.yaml]] OpenAPI
+    [[HotelReview.yaml]] OpenAPI
     definition and Click **[Next.]**
 
     ![](images/tutorial_html_64514a49c35e90d4.png)  
@@ -223,13 +223,13 @@ will configure the proxy call to invoke the endpoint.
     targets for the service.
 
 3.  In the **[Default value]** text field,
-    type [https://apic-pot-inventory-api.mybluemix.net](https://apic-pot-inventory-api.mybluemix.net/)**[.]**
+    type [https://apic-pot-hotelreview-api.mybluemix.net](https://apic-pot-hotelreview-api.mybluemix.net/)**[.]**
 
 4.  Click **[Add.]**
 
 5.  Choose the **[Sandbox catalog]** and
     for the URL
-    type [https://apic-pot-inventory-api.mybluemix.net](https://apic-pot-inventory-api.mybluemix.net/)
+    type [https://apic-pot-hotelreview-api.mybluemix.net](https://apic-pot-hotelreview-api.mybluemix.net/)
 
 ![](images/tutorial_html_f977429f6db6091a.png)
 
@@ -294,7 +294,7 @@ after creation in the Assemble view!
     click [[Send]] again.
 
 10. Now you will see a Response section with Status code 200 OK and the
-    Body displaying all the inventory items.
+    Body displaying all the HotelReview items.
 
     ![](images/tutorial_html_d063fb9dba035b70.png)
 
@@ -307,7 +307,7 @@ the sandbox catalog. A product dictates rate limits and API throttling.
 When the product is published, the Invoke policy defined in the previous
 lab is written to the gateway. 
 
- Create Inventory Product and Add API
+ Create HotelReview Product and Add API
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.  From the vertical navigation menu on the left,
@@ -323,10 +323,10 @@ lab is written to the gateway. 
     Product]**. Then
     click **[Next]**.
 
-4.  For the Title, enter [**[Inventory
+4.  For the Title, enter [**[HotelReview
     APIs]**[.]] Click **[Next]**.
 
-5.  Select the **[inventory 1.0.0 API]** as
+5.  Select the **[HotelReview 1.0.0 API]** as
     shown in the image below. Then
     click **[Next]**.  
 
