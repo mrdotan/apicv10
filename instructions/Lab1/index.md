@@ -233,7 +233,7 @@ will configure the proxy call to invoke the endpoint.
     designer.  ![](images/tutorial_html_eda46641cdf764e6.png)
 
 3.  This will open a window from the right to configure. In the URL
-    field, type **[$(target-url)$(request.path)$(request.search)]**. 
+    field, type **$(target-url)$(request.path)$(request.search)**. 
 
 4.  Click [[Save]].
 
