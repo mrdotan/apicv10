@@ -75,11 +75,6 @@ for HotelReview. Then, we will import it to the online workspace.
 
     ![](images/tutorial_html_228c6cdfd6f4d489.png)
 
-    When you login for the first time you will see What's new in API Connect
-    10. Click **Done** after reviewing.
-
-    ![](images/tutorial_html_db2469619b74ee90.png)
-
 2.  Click on the [[Develop APIs and
     Products]] tile
     to enter the online development workspace.
@@ -143,15 +138,12 @@ will configure the proxy call to invoke the endpoint.
  Configure API Key security
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-1.  Click [[Security
-    Definitions]].
+1.  Click [[Security Schemes]].
 
-2.  In the [[Security
-    Definition]] section,
+2.  In the [[Security Schemes]] section,
     click
     the [[Add]] button
-    on the right. This will open a new view titled [**[API Security
-    Definition]**[.]]
+    on the right. This will open a new view titled [**[Add Object]**[.]]
 
 3.  In the **[Name]** field,
     type [[client-id]].
@@ -164,16 +156,15 @@ will configure the proxy call to invoke the endpoint.
     In]** choose [[Header]].
     For **[Key Type]** choose [[Client
     ID]].
-    In [[Parameter
+    In [[Variable
     Name]] type [[X-IBM-Client-Id]].
     Your screen should look like the image below. 
 
     ![](images/tutorial_html_9acabae1c0f045ea.png)
 
 6.  Click
-    the [[Save]] button
-    to return to the **[Security
-    Definitions]** section.
+    the [[Create]] button
+    to return to the **[Security Schemes]** section.
 
 7.  Click [[Add]] again
     to add the client secret definition.
@@ -184,25 +175,23 @@ will configure the proxy call to invoke the endpoint.
     In]** choose [[Header]].
     For **[Key Type]** choose [[Client
     Secret]].
-    In [[Parameter
+    In [[Variable
     Name]] type [[X-IBM-Client-Secret]].
     Your screen should look like the image below. 
 
     ![](images/tutorial_html_c8364653a0d1e2f5.png)
 
 10. Click
-    the [[Save]] button
-    to return to the **[Security
-    Definitions]** section.
+    the [[Create]] button
+    to return to the **[Security Schemes]** section.
 
 11. Click [[Security]] in
     the left menu.
 
 12. Click [[Add. ]]This will
-    populate the **[Security
-    Definitions]** table with secret and
+    populate the **[Security Schemes]** table with secret and
     client-id. Select both as shown in the image below. Then
-    click [[Save]]. 
+    click [[Create]]. 
 
     ![](images/tutorial_html_41e66c41b43e89ac.png)
 
@@ -214,21 +203,19 @@ will configure the proxy call to invoke the endpoint.
  Define Target-URL for Sandbox environment
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1.  Click
-    on [[Properties]] in
-    the left menu.
+1.  Click on [[Gateway]] tab in the top menu and expand [[Gateway and portal settings]].
 
-2.  Click on the target-url property. The target-url property is
+2.  Click on the target-url property under [[Properties]] section. The target-url property is
     automatically inserted to be able to define multiple run-time
     targets for the service.
 
-3.  In the **[Default value]** text field,
+3.  In the **[Property value]** text field,
     type [http://hotelreview-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/)**[.]**
 
-4.  Click **[Add.]**
+4.  Click Add in the [[Catalog Properties]] and select Choose the [Sandbox] for the name and click Create.
 
-5.  Choose the **[Sandbox catalog]** and
-    for the URL
+5.  Choose [[Sandbox]] and
+    for the target-url
     type [http://hotelreview-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/)
 
 ![](images/tutorial_html_f977429f6db6091a.png)
@@ -239,51 +226,47 @@ will configure the proxy call to invoke the endpoint.
  Configure Proxy Call in Designer
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-1.  On the top Navigation,
-    click [[Assemble]].
+1.  Click on [[Gateway]] tab in the top menu and Click [[Policies]] in the left navigation.
 
 2.  Click [[Invoke]] in
     the flow
     designer.  ![](images/tutorial_html_eda46641cdf764e6.png)
 
 3.  This will open a window from the right to configure. In the URL
-    field, type [[**\$(target-url)\$(request.path)\$(request.search)**]]. 
+    field, type [[**$(target-url)$(request.path)$(request.search)**]]. 
 
 4.  Click [[Save]].
+
+![](images/tutorial_html_70e7e587c6be69d7.png)
 
  Test the API
 ==================================================================
 
 In the API designer, you have the ability to test the API immediately
-after creation in the Assemble view!
+after creation in the Policies view! 
 
-1.  Click
-    the **[play]** **[icon]** as
-    indicated in the image below. 
-
-    ![](images/tutorial_html_70e7e587c6be69d7.png)
-
-2.  Toggle
+1.  Toggle
     [[Offline]]
     to activate API. to publish the API itself to the gateway for
     testing.  
 
     ![](images/tutorial_html_227e8350d01d16f9.png)
 
-3.  After the API is published, additional tabs appear your screen
+2.  After the API is published, additional tabs appear your screen
     should look like the image below.
     ![](images/tutorial_html_a35d4b82b4aa8b10.png)
 
-4.  Choose **[Test]** tab and append **[/Items]** to the URL as shown below.
+3.  Choose **[Test]** tab and Select GET request **[/reviews]** as shown below.
 
     ![](images/tutorial_html_5e2c8cff09f77c58.png)
 
-5.  Your client Id  and client secret for the sandbox-test-app is
+4.  Your client Id  and client secret for the sandbox-test-app is
     prefilled.
 
-6.  Scroll all the way to the bottom of the test view.
+5.	Add two query parameter to the API request like in the image below.
+    ![](images/queryparam.png)
 
-    ![](images/tutorial_html_6400dc1e94d34fd8.png)
+6.  Scroll all the way to the top of the test view.    
 
 7.  Click [[Send]].
 
@@ -294,7 +277,7 @@ after creation in the Assemble view!
     click [[Send]] again.
 
 10. Now you will see a Response section with Status code 200 OK and the
-    Body displaying all the HotelReview items.
+    Body displaying all the hotel reviews.
 
     ![](images/tutorial_html_d063fb9dba035b70.png)
 
@@ -323,8 +306,7 @@ lab is written to the gateway. 
     Product]**. Then
     click **[Next]**.
 
-4.  For the Title, enter [**[HotelReview
-    APIs]**[.]] Click **[Next]**.
+4.  For the Title, enter [**[HotelReview APIs]**[.]] Click **[Next]**.
 
 5.  Select the **[HotelReview 1.0.0 API]** as
     shown in the image below. Then
