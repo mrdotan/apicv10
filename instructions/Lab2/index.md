@@ -103,7 +103,7 @@ using the credentials provided in email.
 
 2. Fill up the form and click **Sign up**.
 
-    ![](images/dev_portal_signup)
+    ![](images/dev_portal_signup.png)
 
 3. Click the account activation link in the confirmation email to activate your account.
 
