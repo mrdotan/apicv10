@@ -39,28 +39,28 @@ login using API Manager User Registry not Common Services
 registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab1)
+service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab2)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab3)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab4)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab5)
+Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab6)
+Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab7)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab8)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 Prerequisites: None
 
@@ -71,8 +71,7 @@ Prerequisites: None
 
     ![](images/tutorial_html_c0c5acec16e566bb.png)
 
-2.  Enter the following values and click Next. You To create a GraphQL
-    proxy definition, select From Existing GraphQL service. When you
+2.  To create a GraphQL proxy definition, select From Existing GraphQL service. When you
     point to an existing GraphQL server, API Connect introspects the
     service and automatically creates a GraphQL proxy service.
 
@@ -81,16 +80,16 @@ Prerequisites: None
 3.  Enter the following values and click Next. You can use default
     values for the rest.
 
-    Title: accounts
+    Title: countries
 
-    GraphQL server URL: https://graphql-test-server.us-east.cf.appdomain.cloud/accounts/graphql
+    GraphQL server URL: https://countries.trevorblades.com/graphql
 
     ![](images/tutorial_html_f83e60ae96763438.png)
 
     ![](images/tutorial_html_90e0cbad29eca5a.png)
 
-4.  The schema validator reports warning and errors if found. There is
-    one warning in the accounts schema imported from the server. You can
+4.  The schema validator reports warning and errors if found. There are 7
+    warnings in the countries schema imported from the server. You can
     review the schema warning details and also select the end points
     interested for this proxy. Select all the available end points.
 
@@ -115,7 +114,7 @@ Prerequisites: None
 8.  GraphQL APIs are structured the same as REST APIs with some
     additional options. Just like REST APIs, you will be able to add
     security definitions, properties and Activity logs from the left
-    menu bar. You can also view the Source and Assemble tabs similar to
+    menu bar. You can also view the Source and Policies tabs similar to
     REST APIs. You will notice a new tab for GraphQL APIs. Click on
     GraphQL Schema tab to view the schema.
 
@@ -129,9 +128,9 @@ Prerequisites: None
 
     ![](images/tutorial_html_ab0c11b157a7cd4b.png)
 
-10. Select Query to review the warning details for this type. In
+10. Click View in the warnings to review the warning details. In
     addition to the warning details, the Warning window gives an option
-    to fix the warning by apply the limits. Click Apply to continue.
+    to fix the warnings by apply the limits. Click Apply All to continue.
 
     ![](images/tutorial_html_ed0f88002c9eb816.png)
 
@@ -140,7 +139,7 @@ Prerequisites: None
 
     ![](images/tutorial_html_63ce76efdb0032d7.png)
 
-12. Select Assemble to view the API in Assembly view. The flow is
+12. Select Policies in Gateway tab to view the API in Assembly view. The flow is
     automatically created as part of the initial API creation. You may
     apply addition logic by dragging and dropping items from the pallet
     to the canvas. In this tutorial, you are not adding additional
@@ -148,46 +147,47 @@ Prerequisites: None
 
     ![](images/tutorial_html_a2cd4daada4f2ca5.png)
 
-13. To publish the API toggle the button from offline to online.
+13. Countries GraphQL backend API doesn't support compression, hence we need to 
+    disable the compression. Click the Source button next to Pencil icon at the top 
+	and search for **compression** and set the value to false, as shown below.
+	
+	![](images/compression_flag.png)		
+
+14. Save the changes. To publish the API toggle the button from offline to online.
 
     ![](images/tutorial_html_965b91d211caf432.png)
 
-14. After successfully publishing the API to API Gateway, additional
+15. After successfully publishing the API to API Gateway, additional
     tabs appear on the screen. Select Test tab to test the API.
 
     ![](images/tutorial_html_ccb982e24326f44f.png)
 
-15. To test the API select the end point by append graphql at the end of
-    the request URL for GET method. The URL should look like this (your
+16. To test the API select the end point for POST method. The URL should look like this (your
     value may be different):
 
-    <https://apic-dev-gw-gateway-apic.cp4inew-138661-3195e5b101a2fc76b9c4875fb79cfa25-0000.us-south.containers.appdomain.cloud/org01/sandbox/accounts/graphql>
+    <https://apic-gw-gateway-apic.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/joy-vad/sandbox/countries/graphql>
+      
 
-    Click **Send** to test the API.
-
-    An empty string is returned since we have not specified query string yet.
-
-16. API Connect Test feature also includes GraphQL Editor. Enter the
-    following in in GraphQL Editor window. You may use Prettify option
+17. API Connect Test feature also includes GraphQL Editor called **GraphiQL**. Enter the
+    following in GraphiQL Editor window. You may use Prettify option
     to view formatting string.
 
 ```
 {
-  accounts(limit: 2) {
-    name {
-      first
-      last
-    }
+  continents {
+    name
+    code
+    
   }
 }
 ```
 
-17. Click Run button to send the GraphQL request to the end point. An
+18. Click Run button to send the GraphQL request to the end point. An
     exception window will appear when you use test the API for the first
     time.
 
 
-18. Click accept Exception to continue.
+19. Click accept Exception to continue.
 
     ![](images/tutorial_html_98d8f253e9342c8b.png)
 
@@ -196,53 +196,30 @@ Prerequisites: None
     you are using Chrome browser you can accept the exception by typing
     "thisisunsafe" anywhere in the window. Similar workarounds are available
     for other browsers. For firefox browser, follow the steps from here -
-    <https://support.mozilla.org/en-US/kb/error-codes-secure-websites>
+    <https://support.mozilla.org/en-US/kb/error-codes-secure-websites>    
 
-    ![](images/tutorial_html_ac0c773416db4db7.png)
-
-19. The results for GraphQL request are displayed on the right panel. In
-    the request we limited the values to 2, so only two accounts are
-    displayed. Change the value to 5 and submit the request again and
-    notice that more accounts are returned in the results window.
+20. The results for GraphQL request are displayed on the right panel. 
 
     ![](images/tutorial_html_1d05935575c71f8e.png)
 
-20. You can request additional data fields (refer to the schema editor
-    for details), GraphQL may reject if certain fields are locked or
-    prohibited. To test this, enter CreditCard information in the
-    request field.
-
-    The complete request looks as follows:
+21. You can request additional queries, refer to the schema editor
+    for details or go to https://github.com/trevorblades/countries/ for example requests).
+    
 ```
 {
-  accounts(limit: 2) {
-    name {
-      first
-      last
+  country(code: "ID") {
+    name
+    native
+    capital
+    emoji
+    currency
+    languages {
+      code
+      name
     }
-    shippingAddress {
-      building
-      street
-    }
-  }
-  creditCard {
-    number
-    expirationDate
   }
 }
 ```
-
-  You will notice that an error message is displayed in the results window
-  instead of the account values as the server restricts the query field
-  creditCard.
-
-  (Note: The error message displayed may be different than what is shown
-    in the screenshot).
-
-  ![](images/tutorial_html_81c927163c9c11bb.png)
-
-21. Submit another request to get account and shipping address details.
-    This time the values are turned without errors.
 
     ![](images/tutorial_html_e37331678c3d02b2.png)
 
@@ -254,36 +231,44 @@ Prerequisites: None
 
     ![](images/tutorial_html_4f43bda35452bd65.png)
 
-2.  Name the product as Accounts Product and click Next
+2.  Name the product as Countries Product and click Next
 
     ![](images/tutorial_html_d0c3992a4bd7bc24.png)
 
-3.  Add Accounts API to the product by selecting accounts. Click Next to
-    continue to create the accounts-product.
+3.  Add Countries API to the product by selecting countries. Click Next to
+    continue to create the countries-product.
 
     ![](images/tutorial_html_4ae09f5fddd82bab.png)
+	
+4. Select the Default Plan and Click Next.	
 
-4.  Edit the product accounts-product to review the details. The Default
-    Plan contains traditional rate limiting options but you will notice
+5.  Accept the default for Visibility and Subscribability and Click Next
+
+    ![](images/tutorial_html_1adf1922464ea393.png)
+
+6.  Click Edit Product to Edit the product countries-product to review the details. 
+    
+	![](images/edit-product.png)
+
+7.	The Default Plan contains traditional rate limiting options but you will notice
     another section that list GraphQL Rate Limits.
 
     ![](images/tutorial_html_15d9c2582155eea8.png)
 
-5.  You will be able to adjust GraphQL cost parameters from this
+8.  You will be able to adjust GraphQL cost parameters from this
     section. You can set a limit or make it unlimited. You will not be
     making any changes in this tutorial.
 
     ![](images/tutorial_html_3c25f5d5dab1988e.png)
 
-6.  Publish the Product to Sandbox Catalog by selecting Publish
+
+9.  Publish the Product to Sandbox Catalog and Click Next.
 
     ![](images/tutorial_html_a1f1cf7707e31913.png)
 
-7.  Accept the default for Visibility and Subscribability
+10.  Accept the default for Visibility and Subscribability    
 
-    ![](images/tutorial_html_1adf1922464ea393.png)
-
-8.  Click Publish to complete publishing the product.
+11.  Click Publish to complete publishing the product.
 
     ![](images/tutorial_html_890ebcd8219b104.png)
 
@@ -298,12 +283,12 @@ Prerequisites: None
     ![](images/tutorial_html_c34973eb377015ce.png)
 
 2.  Developer Portal displays all the products that are currently
-    published. Locate accounts-product and select the product.
+    published. Locate countries-product and select the product.
 
     ![](images/tutorial_html_2635d049f12d59c6.png)
 
-3.  The selected product lists one API (accounts api) and one Plan
-    (Default Plan). Select Subscribe option to subscribe to the plan.
+3.  The selected product lists one API (countries api) and one Plan
+    (Default Plan). Click Select to subscribe to the plan.
 
     ![](images/tutorial_html_bd0ea34d4f40d756.png)
 
@@ -312,19 +297,25 @@ Prerequisites: None
     created.
 
     ![](images/tutorial_html_2fd3cf48168675e5.png)
+	
+5.  Subscribe to Countries product and Click Next.
 
-5.  Select accounts API to review and test the API. Click accounts to
+6.  Review summary and Click Done.
+
+    ![](images/dev_portal_subscription.png)			
+
+7.  Select countries API to review and test the API. Click countries to
     continue
 
     ![](images/tutorial_html_8a5975dd9780a924.png)
 
-6.  Developer Portal displays the type as GrahQL API. Currently Client
-    ID security is enforced. Since there is only on Plan and one
+8.  Developer Portal displays the type as GrahQL API. Currently Client
+    ID security is enforced. Since there is only one Plan and one
     Consumer Application, the Consumer ID filed is already populated.
 
     ![](images/tutorial_html_e8892b4b3da410fc.png)
 
-7.  To continue to test the API, use the GraphQL Editor. Submit requests
+9.  To continue to test the API, use the GraphQL Editor. Submit requests
     with different field names and watch how quickly the results are
     returned in the results window. If this was a REST API multiple end
     points will be needed to achieve the same result.
