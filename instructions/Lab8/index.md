@@ -223,6 +223,7 @@ Prerequisites: None
 
     ![](images/tutorial_html_e37331678c3d02b2.png)
 
+
  Create a Product and apply GraphQL RateLimits
 ====================================================================================================
 
@@ -271,6 +272,7 @@ Prerequisites: None
 11.  Click Publish to complete publishing the product.
 
     ![](images/tutorial_html_890ebcd8219b104.png)
+
 
  Test GraphQL API from Developer Portal
 =============================================================================================
