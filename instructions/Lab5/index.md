@@ -401,7 +401,7 @@ existing OpenAPI definition.
 1.  Click **[Add]** and
     select **[API.]**  
 
-    ![](images/tutorial_html_44524c2a518bf56e.png)
+    ![](images/tutorial_html_35bc8347ebf9f3c4.png)
 
 2.  From the Create API wizard, select [[Import: Existing
     OpenAPI]].
@@ -409,11 +409,10 @@ existing OpenAPI definition.
 	
 	![](images/tutorial_html_5515164592670a5f.png)
 
-3.  You will need logistics.yaml file for this step. Fron another browser window download the file using this link
-    [logistics.yaml](https://integrationsuperhero.github.io/techcon2020/APICDevJam/resources/logistics.yaml)
+3.  You will need logistics.yaml file for this step. From another browser window download the file using this link
+    [logistics.yaml](https://raw.githubusercontent.com/ibm-ecosystem-lab/APICv10/main/logistics.yaml)
 
-    Click \`**Browse**\` in the [[Import from
-    file]] window, and select the downloaded logistics.yaml file.
+    Drag/Drop or Browse the downloaded logistics.yaml file in the [[Import from file]] window.
 
     ![](images/tutorial_html_2ec43e484c5482b0.png)
 
@@ -433,18 +432,17 @@ existing OpenAPI definition.
  Configure payload to be stored in Analytics
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1.  From the API menu, select [[Activity
+1.  From the Gateway menu, search and select [[Activity
     Log]].
     In
-    the [[Content]] drop-down,
+    the [[Success Content]] drop-down,
     select [[payload]].
     A pop up window will be displayed, asking to enable buffering.
     Click [[Continue]].
 
     ![](images/tutorial_html_e8ffcd636704e49b.png)
 
-2.  Set the [[Content on
-    error]] drop-down
+2.  Set the [[Error Content]] drop-down
     to [[activity]].
     Click [[Save]].
 
@@ -463,7 +461,7 @@ consolidated response back to the consumer.
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.  Switch to
-    the [[Assemble]] tab
+    the [[Policies]] view in Gateway tab
     and remove
     the [[invoke]] policy
     by hovering over it and selecting the [[trashcan
@@ -483,7 +481,7 @@ consolidated response back to the consumer.
 5.  Select
     the **[shipping.calc]** operation.
 
-6.  Click the **[+ Case]** button to add a
+6.  Click the **[Add Case]** button to add a
     second case for
     the [[get.stores]] operation.
 
@@ -541,7 +539,7 @@ consolidated message for our consumers.
         invoke\_cek]]
 
     -   [[URL:
-        \$(shipping\_svc\_url)?company=cek&from\_zip=90210&to\_zip= ]]
+        \$(shipping\_svc\_url)?company=cek&from\_zip=90210&to\_zip=\{zip\} ]]
 
     -   [[Response object variable:
         cek\_response]]  
@@ -557,7 +555,7 @@ consolidated message for our consumers.
 
 6.  Click
     the [[pencil]] at
-    the top of the Input column, then click on the [[+
+    the top of the Input column, then click on the [[Add
     input]] button.
     Enter the following input configuration:
 
@@ -573,7 +571,7 @@ consolidated message for our consumers.
     -   [[Definition:
         #/definitions/xyz_shipping_rsp]]
 
-7.  Click the [[+
+7.  Click the [[Add
     input]] button
     again to add another input. Specify the following input
     configuration:
@@ -622,8 +620,6 @@ consolidated message for our consumers.
     ![](images/tutorial_html_60e39f1d04c62b0b.png)
 
 15. Save your changes.
-
-    ![](images/tutorial_html_8eaea845d79feb97.png)
 
  Use GatewayScript in an Assembly
 =======================================================================================
