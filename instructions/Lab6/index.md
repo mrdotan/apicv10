@@ -39,28 +39,28 @@ login using API Manager User Registry not Common Services
 registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab1)
+service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab2)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab3)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab4)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab5)
+Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab6)
+Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab7)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab8)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 
 Prerequisites: Labs 1-5
@@ -81,7 +81,7 @@ Plans to which consumers can subscribe.
 
 4.  Provide the following configuration for the new product:
 
-    Title: [[Accessories]]
+    Title: [[Think Accessories]]
 
     Name: [[accessories]]
 
@@ -159,8 +159,7 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE
 SOFTWARE.]]
 ```
-13. Scroll to the bottom and
-    click [[Save]].
+13. Click [[Save]].
 
 14. Navigate to the Plans section. Click the **Add** button to add a new
     plan.
@@ -189,13 +188,13 @@ SOFTWARE.]]
 
 Publish the Accessories Product and make it ready for consumers.
 
-1.  On The Develop page, you should see the Accessories-1.0.0 Product in
-    the list.  ![](images/tutorial_html_89ab455eda83363d.png)
+1.  On The Develop page, you should see the Think Accessories-1.0.0 Product in
+    the Products list.  ![](images/tutorial_html_89ab455eda83363d.png)
 
 2.  Click the [[3 dot menu
     button]] in
     the row for
-    Accessories-1.0.0.  ![](images/tutorial_html_db68536832d13fed.png)
+    Think Accessories-1.0.0.  ![](images/tutorial_html_db68536832d13fed.png)
 
 3.  Click [[Publish.]]
 
@@ -218,5 +217,5 @@ key takeaways:
 -   Publish a product.
 
 Continue with the APIC Dev Jam! Go
-to [APIC Dev Jam - Lab 7 - The Consumer Experience](https://integrationsuperhero.github.io/techcon2020/APICDevJam/Lab7))] to
+to [APIC Dev Jam - Lab 7 - The Consumer Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7))] to
 explore the consumer experience for APIs that have been exposed to your Sandbox catalog.
