@@ -27,10 +27,10 @@ x-ibm-configuration:
   catalogs:
     sandbox:
       properties:
-        shipping_svc_url: 'https://thinkibm-services.mybluemix.net/shipping/calculate'
+        shipping_svc_url: 'http://calculator-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/financing/calculate'
   properties:
     shipping_svc_url:
-      value: 'https://thinkibm-services.mybluemix.net/shipping/calculate'
+      value: 'http://calculator-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/financing/calculate'
       description: Location of the shipping calculator service
       encoded: false
 paths:
