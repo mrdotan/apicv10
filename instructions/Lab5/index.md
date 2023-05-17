@@ -597,13 +597,12 @@ consolidated message for our consumers.
     icon]] at
     the top of
     the [[Output]] column
-    and then click [[+ outputs for
+    and then click [[Add outputs for
     operation\...]] and
     choose
     the [[shipping.calc]] operation.
 
-11. Set **[Content
-    type]** to [[application/json]].
+11. Set **[Content type]** to [[application/json]].
 
 12. Click [[Done]] to
     return to the editor.
