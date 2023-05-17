@@ -118,8 +118,6 @@ for the financing API.
     Designer menu on the left. Then,
     click **[Add]** to create a new definition.
 
-    ![](images/tutorial_html_f584c2696c3ce084.png)
-
 8. Enter **[paymentAmount]** for **[Name]** and
     set the definition **[Type]** 
     to **[object]**.
@@ -157,7 +155,7 @@ for the financing API.
 	**[Note:]** [Recall that our Base
     Path for this API is \`financing\`. This new path will be appended to
     the base, creating a final path of       
-    /financing/calculate.]**
+    /financing/calculate.]
 
 13. Click [[Add]] in
     the Operations section to define the operation to support under the
@@ -179,9 +177,7 @@ for the financing API.
 	This defines the input to the API request. Since
     this is a GET request, you will add the required request parameters to
     the query component of the URI.
-    Click [[Add]] in the [[Parameters]] section.
-    
-	![](images/tutorial_html_1e46988677afe0a.png)	
+    Click [[Add]] in the [[Parameters]] section.	
 	
     You are actually going to need three total parameters for this
     operation, so go ahead to add the parameters and set the values as below:
@@ -235,8 +231,7 @@ for the financing API.
    
    ![](images/add_property1.png)   
    
-    Click **[Create]** to go back to the main API
-    Editor.
+    Click **Create** to go back to the main API Editor.
 	
 	![](images/tutorial_html_c600b4bb8ec6adee.png)
 
@@ -274,8 +269,9 @@ API definition.
 
 5. Select **[financingService.]** Then click **[Create]**.
 
-    Build the Financing API Assembly
-----------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ Build the Financing API Assembly
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 1. Click [[Policies]] to
     access the assembly editor.
@@ -298,7 +294,7 @@ API definition.
 4. Now you are going to modify the input and output map policy for
     mapping your REST API into SOAP.
 
-    ![](images/tutorial_html_4a933c8c317bbd97.png)
+    ![](images/tutorial_html_1e46988677afe0a.png)
 
 5. In order to consume a SOAP-based service from your REST-based API,
     you need to map the query parameter inputs that were previously defined
