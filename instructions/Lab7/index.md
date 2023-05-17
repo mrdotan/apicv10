@@ -32,33 +32,33 @@ login using API Manager User Registry not Common Services
 registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab1)
+service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab2)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab3)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab4)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab5)
+Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab6)
+Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab7)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab8)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 
 Prerequisites: Labs 1-6
 
- Subscribe o the Accessories Product
+ Subscribe to the Think Accessories Product
 ==========================================================================================
 
 In this section, you will subscribe to a plan for the
@@ -71,7 +71,7 @@ Accessories Product using the IBM Consumer application.
 3.  Click the [[API
     Products]] link.  ![](images/tutorial_html_444fff2d8e0d46b7.png)
 
-4.  Notice that only the Inventory product is listed, even though you
+4.  Notice that Accessories product is listed, even though you
     just published the Accessories product. Recall that you assigned the
     Accessories product to be visible only by developers who are logged
     in to the portal.
@@ -90,14 +90,14 @@ Accessories Product using the IBM Consumer application.
     Products]] link
     after logging in.
 
-8.  Select the [[ Accessories
+8.  Select the [[ Think Accessories
     1.0.0]] product. 
 
     ![](images/tutorial_html_6efccbf2582a30c0.png)  
 
 9.  You will be directed to the Product page which lists the available
     plans for subscription.
-    Click [[Subscribe]] under
+    Click [[Select]] under
     the [[Silver]] plan.  ![](images/tutorial_html_fd5ece1fe8b66fa5.png)
 
 10. **Note:** The Gold plan requires approval by the API provider for
@@ -108,10 +108,7 @@ Accessories Product using the IBM Consumer application.
 
 11. A subscription wizard is initiated. All the applications available
     are displayed (in this case we only have the IBM Consumer
-    application). Click [[Select
-    App]] which
-    is located below the application
-    tile.  
+    application). Click [[IBM Consumer]].  
     ![](images/tutorial_html_fe0fc338b5ae9fd3.png)
 
 12. A window with the subscription details is displayed to confirm the
