@@ -42,28 +42,28 @@ login using API Manager User Registry not Common Services
 registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab1)
+service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab2)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab3)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab4)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab5)
+Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab6)
+Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab7)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab8)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 Prerequisites: Labs 1-4
 
@@ -98,54 +98,54 @@ for the financing API.
 
     **Version: 1.0.0**
 
-    Click **Next**.
+    Click **Next**
 
     ![](images/tutorial_html_6dab5b579d7af76.png)
 
-5. Leave all default values and click [[Next. ]]API
+5.  Leave all default values and click [[Next. ]]API
     Connect will generate a new OpenAPI definition for the financing API and
     provide a summary with the performed activities.
 
     ![](images/tutorial_html_fb454c7ee948008d.png)
 
-6.  Click  **[Edit API ]**to customize the API.**
+6.  Click  **[Edit API ]** to customize the API.
 
-7. Create the model definition for the new API. These definitions are
+7.  Create the model definition for the new API. These definitions are
     used in a few places. Their primary role is to serve as documentation in
-    the developer portal on expected input and output parameters. However,
+    the developer portal on expected input and output parameters. However,
     they can also be used for data mapping actions.
-    Click **[Definitions]** from the API
+    Click **[Definitions]** from the API
     Designer menu on the left. Then,
-    click **[Add]** to create a new definition.
+    click **[Add]** to create a new definition.
 
-    ![](images/tutorial_html_f584c2696c3ce084.png)
+    ![](images/tutorial_html_f584c2696c3ce084.png)
 
 8. Enter **[paymentAmount]** for **[Name]** and
-    leave the definition **[Type]** set
+    set the definition **[Type]** 
     to **[object]**.
+    
+	![](images/create_definition.png)
 
-9. Click **[Add]** in
-    the **[Properties]** section.
-
-    ![](images/tutorial_html_332203efe7e366f5.png)
+9.  Click **[Add]** in
+    the **[Properties]** section    
 
 10. Edit the **property values** using the following values:
 
     **Property Name: paymentAmount**
 
-    **Type: float**
+    **Type: number**
 
-    **Example: 199.99**
+    **Format: float**
 
     **Description: Monthly payment amount**
 
     The page will look like this:
 
-   ![](images/tutorial_html_c600b4bb8ec6adee.png)
-
-    The property will be utilized in the Path you create next.
-    Click **[Save]** to go back to the main API
-    Editor.
+   ![](images/add_property.png)
+   
+   ![](images/add_property1.png)   
+   
+	![](images/tutorial_html_c600b4bb8ec6adee.png)
 
 11. Click [[Paths]] in
     the navigation menu on the left. Then
@@ -153,7 +153,8 @@ for the financing API.
 
     ![](images/tutorial_html_f3f04d5e1fde784d.png)
 
-12. The Path screen is loaded. Edit the [[Path name]] to be **[/calculate]**. **[Note:]** [Recall that our Base
+12. The Path screen is loaded. Edit the [[Path name]] to be **[/calculate]** and click Create. 
+	**[Note:]** [Recall that our Base
     Path for this API is \`financing\`. This new path will be appended to
     the base, creating a final path of       
     /financing/calculate.]**
@@ -166,35 +167,24 @@ for the financing API.
 
 14. From the **[Add Operation]** menu,
     select the **[Get]** operation and then
-    click **[Add]**. 
+    click **[Create]**. 
 
     ![](images/tutorial_html_aae3e2ff9be52791.png)
 
-15. Click **[Save]**. You will be
-    redirected to the main API Editor to continue.
+15. You will be redirected to the main API Editor to continue.
 
     ![](images/tutorial_html_66cc80ef2c7d855b.png)
 
-16. Click the **[/calculate]** path we just created.
-
-    ![](images/tutorial_html_864cc1225031590a.png)
-
-17. Click the **[GET]** operation to add
-    the request parameters. This defines the input to the API request. Since
+16. Scroll down to the Parameters section of **GET** operation within the operation config.
+	This defines the input to the API request. Since
     this is a GET request, you will add the required request parameters to
     the query component of the URI.
-
-    ![](images/tutorial_html_2cf0c1234fbd4aa3.png)
-
-18. Scroll down to the Parameters section within the operation config.
     Click [[Add]] in the [[Parameters]] section.
+    
+	![](images/tutorial_html_1e46988677afe0a.png)	
+	
     You are actually going to need three total parameters for this
-    operation, so go ahead and click the \`**Add**\` button **two more
-    times** to add the parameter templates.
-
-    ![](images/tutorial_html_1e46988677afe0a.png)
-
-19. Edit the **parameters** to set the values:
+    operation, so go ahead to add the parameters and set the values as below:
 
 ```
   **Required**   **Name**   **Located In**   **Type**   **Description**
@@ -208,22 +198,49 @@ for the financing API.
 
   ![](images/tutorial_html_2fc0008e5f75928e.png)
 
-20. Set the schema for the response. Click **Add** in
+17. Set the schema for the response. Delete any existing response e.g. 200 (if exists).
+	Click **Add** in
     the **[Response]** section.
     Enter [[200]] for [[STATUS CODE]].
-    Since we already defined
-    the **[paymentAmount]** definition, select
-    it from the drop down list
-    for [[SCHEMA]].
-    You will find
-    the **[paymentAmount]** definition at the
-    bottom of the list.
-    For [[DESCRIPTION]] enter [[amount
-    calculated
-    successfully]]
-    ![](images/tutorial_html_f51180a01dc389af.png)
+	For [[DESCRIPTION]] enter [[amount calculated successfully]]
+	Click Create.
+	
+18. Click Create under Schema for the response 
+	to create API response schema for the new API.
 
-21. Click [[Save]] to
+    ![](images/tutorial_html_f584c2696c3ce084.png)
+
+19. Enter **[paymentAmount]** for **[Name]** and
+    set the definition **[Type]** 
+    to **[object]**.
+    
+	![](images/create_definition.png)
+
+20.  Click **[Add]** in
+    the **[Properties]** section    
+
+21. Edit the **property values** using the following values:
+
+    **Property Name: paymentAmount**
+
+    **Type: number**
+
+    **Format: float**
+
+    **Description: Monthly payment amount**
+
+    The page will look like this:
+
+   ![](images/add_property.png)
+   
+   ![](images/add_property1.png)   
+   
+    Click **[Create]** to go back to the main API
+    Editor.
+	
+	![](images/tutorial_html_c600b4bb8ec6adee.png)
+
+22. Click [[Save]] to
     save the API definition.
 
     ![](images/tutorial_html_a0106fbcef024d0.png)
@@ -237,18 +254,16 @@ API definition.
  Attach a Service WSDL
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-1.  Click the **[Target Services]** option
-    in the left column menu palette from the **[financing
-    1.0.0]** API Design screen
+1.  Click **Gateway** tab in the top navigation and select the **[Target Services]** option
+    in the left column menu palette for the **[financing 1.0.0]** API
 
 2.  Click **[Add]** to import the web
     service from the legacy financing service.
 
     ![](images/tutorial_html_ebb6419fc4fb979a.png)
 
-3.  Download the [calculate.wsdl](https://integrationsuperhero.github.io/techcon2020/APICDevJam/resources/calculate.wsdl) and then Click **[Browse]** to
-    select [[calculate.wsdl]] located
-    in where you downloaded it on your machine.
+3.  Download the [calculate.wsdl](https://raw.githubusercontent.com/ibm-ecosystem-lab/APICv10/main/calculate.wsdl) and 
+	then Drag/Drop or upload the downloaded [[calculate.wsdl]] from your machine.
 
     ![](images/tutorial_html_e10ec45733dfce99.png)
 
@@ -257,12 +272,12 @@ API definition.
 
     ![](images/tutorial_html_6a8444e050b87ad3.png)
 
-5. Select **[financingService.]** Then click **[Submit]**.
+5. Select **[financingService.]** Then click **[Create]**.
 
     Build the Financing API Assembly
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Click [[Assemble]] to
+1. Click [[Policies]] to
     access the assembly editor.
 
     ![](images/tutorial_html_7ecdd003a7db2e23.png)
@@ -276,8 +291,7 @@ API definition.
     ![](images/tutorial_html_d05e099dd7e132b4.png)
 
 3. Scroll down to the bottom of the policy menu and drag and drop
-    the **[financing web service
-    operations]** to processing pipeline.
+    the **[financing web service operations]** to processing pipeline.
 
     ![](images/tutorial_html_771de22ad92a31fb.png)
 
@@ -286,33 +300,10 @@ API definition.
 
     ![](images/tutorial_html_4a933c8c317bbd97.png)
 
-5. Since we are using the new API Gateway, we will need to instruct it
-    to use the newer version of the policies in the flow (map, invoke, map).
-    Click Source to go to the OpenAPI definition of your API.
-
-    ![](images/tutorial_html_35460e46cf085196.png)
-
-6. Scroll down to map and insert [[version: 2.0.0]] right
-    below it. 
-
-    ![](images/tutorial_html_66473f670a224c38.png)
-
-7. Scroll down to invoke and insert [[version 2.0.0]] right
-    below it. Skip if the version 2.0.0 is already populated.
-
-    ![](images/tutorial_html_d480dfb5896607c6.png)
-
-8. Now go to the last map and insert **[version: 2.0.0]** right below it.
-    Click [[Assemble]] to
-    go back to the gateway flow designer. Skip if the version 2.0.0 is already populated.
-
-    ![](images/tutorial_html_80b968197ef6f435.png)
-
-9. In order to consume a SOAP-based service from your REST-based API,
+5. In order to consume a SOAP-based service from your REST-based API,
     you need to map the query parameter inputs that were previously defined
     as part of the GET /calculate operation to a SOAP payload. To do so,
-    click the [[financing
-    input]] map
+    click the [[financing input]] map
     policy on our pipeline to open the map editor.
 
     [[Tip: Click on the \`+\` icon to make the editor window fill the
@@ -324,7 +315,7 @@ API definition.
 
     ![](images/tutorial_html_9d82765fc8e50237.png)
 
-11. Click [[+ parameters for operation\...]] and
+11. Click [[Add parameters for operation\...]] and
     select the **[GET Calculate operation]**.
 
     ![](images/tutorial_html_9dad0a59d5e53a96.png)
@@ -343,7 +334,7 @@ API definition.
     element. A line will be drawn between the two, indicating a mapping from
     the source to the target.
 
-![](images/tutorial_html_e18d417ab873efe0.png)
+	![](images/tutorial_html_e18d417ab873efe0.png)
 
 14. Click [[\`X\`]] in
     the map editor to return to the policy pipeline.
@@ -365,14 +356,12 @@ API definition.
 
     You already defined the response object
     called [[paymentAmount]].
-    To do the map, click the **[financing
-    output]** map policy on the pipeline to
+    To do the map, click the **[financing output]** map policy on the pipeline to
     open the map editor.
 
 19. Click the [[pencil icon]] to set the output object schema.
 
-20. Click the **[+ outputs for
-    operation\...]** option and select
+20. Click the **[Add outputs for operation\...]** option and select
     the [[GET /calculate operation]].
 
 21. Set the [[Content type]] configuration
@@ -401,8 +390,6 @@ API definition.
 25. Click **[Develop]** in the navigation
     menu to return to the list of APIs and Products in your system.
 
-    ![](images/tutorial_html_a810481f55373ff0.png)
-
  Import Logistics API
 ===========================================================================
 
@@ -422,8 +409,9 @@ existing OpenAPI definition.
 
 2.  From the Create API wizard, select [[Import: Existing
     OpenAPI]].
-    Then
-    click [[Next]].  ![](images/tutorial_html_5515164592670a5f.png)
+    Then click [[Next]].  
+	
+	![](images/tutorial_html_5515164592670a5f.png)
 
 3.  You will need logistics.yaml file for this step. Fron another browser window download the file using this link
     [logistics.yaml](https://integrationsuperhero.github.io/techcon2020/APICDevJam/resources/logistics.yaml)
