@@ -646,7 +646,7 @@ Google Maps link.
         invoke\_google\_geolocate  ]]
 
     -   [[URL:
-        https://maps.googleapis.com/maps/api/geocode/json?&address=]]
+        [https://maps.googleapis.com/maps/api/geocode/json?&address=](http://geolocation-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/geolocation/v1/location?&address={zip})]]
 
     -   [[Stop on error:
         unchecked ]]
@@ -669,6 +669,7 @@ Google Maps link.
         text area:
 
 ```
+var apim = require('apim');
 // Save the Google Geocode response body to variable
 var mapsApiRsp = apim.getvariable('google_geocode_response.body');
 
