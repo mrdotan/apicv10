@@ -646,7 +646,7 @@ Google Maps link.
         invoke\_google\_geolocate  ]]
 
     -   [[URL:
-        [https://maps.googleapis.com/maps/api/geocode/json?&address=](http://geolocation-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/geolocation/v1/location?&address={zip})]]
+        [http://geolocation-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/geolocation/v1/location?&address={zip})]]]
 
     -   [[Stop on error:
         unchecked ]]
