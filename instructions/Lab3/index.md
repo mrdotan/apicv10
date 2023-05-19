@@ -1,9 +1,9 @@
 **APIC Dev Jam Lab 3 - Add OAuth Security to your API**
 
-In this lab, you will secure the Inventory API to protect the resources
+In this lab, you will secure the HotelReview API to protect the resources
 exposed by **API Connect**. Consumers of your API will be required to
 obtain and provide a valid OAuth token before they can invoke the
-Inventory API.
+HotelReview API.
 
 In this tutorial, you will explore the following key capabilities:
 
@@ -33,28 +33,28 @@ login using API Manager User Registry not Common Services
 registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab1)
+service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab2)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab3)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab4)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab5)
+Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab6)
+Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab7)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab8)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 
 Prerequisites: Labs 1-2
@@ -67,37 +67,6 @@ works like any other API call, and thus we treat it as its own API. In
 this section, you will create a new OAuth provider API, configure which
 grant type to use, and configure how it will authenticate user
 credentials.
-
- Configure Authentication URL User Registry
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-In order to configure user authentication, you must first define the
-registry to use, which may be LDAP, local user registry, or an
-authentication URL. For our lab, we will implement an Authentication
-URL.
-
-1.  In the API Manager from the main menu on the left,
-    click [[Resources]].
-
-    ![](images/tutorial_html_newcreateregistry.png)
-
-2.  Select the [[Authentication URL User
-    Registry]] tile.
-
-    ![](images/tutorial_html_ae58ee320d642047.png)
-
-3.  Specify the only following properties and then
-    click [[Save.]]
-
-    Title: [[App Registry]]
-
-    URL: <https://thinkibm-services.mybluemix.net/auth>
-
-    Display name:[[ App Registry]]
-
-    Click **Save** to save the resource
-
-    ![](images/tutorial_html_ae75a185a7c7e950.png)
 
  Create OAuth Service
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -138,26 +107,31 @@ URL.
     for **[sample_scope_1]**, set the
     following fields:
 
-    Name: [[inventory]]
+    Name: [[hotelreview]]
 
-    Description: [[Access to Inventory API]]
+    Description: [[Access to Hotel Review API]]
 
     ![](images/tutorial_html_b42ee8bacaf23a4c.png)
 
 7.  Click [[Next]].
 
-8.  Keep all items default.
-    Click [[Next.]]
+8.  Click [[Create sample user registry]] button.
+
+    ![](images/create_sample_user_registry.png)
+	
+9. Select the newly created Sample registry **SampleAuthURL** from the dropdown and Click [[Next]].
+
+    ![](images/sample_user_registry.png)
+	
+10. Review your OAuth configuration and
+    click [[Finish]].
 
     ![](images/tutorial_html_985e9dbc3a3f82c0.png)
 
-9.  Review your OAuth configuration and
-    click [[Finish]].
-    Then click on the back arrow.
-
-10. From the Sandbox Catalog registry setting, select API User
-    Registries and Add App Registry. To open Sandbox Settings follow
-    Home-\>Manage Catalogs-\>Sandbox-\>Settings(Gearbox)->API User Registries.
+11. Open Sandbox Settings follow
+    Home-\>Manage Catalogs-\>Sandbox-\>Catalog Settings->API User Registries.
+	From the Sandbox Catalog registry setting, select API User
+    Registries and Add App Registry.
 
     Use **Edit** option and enable available API registry.
 
@@ -166,34 +140,21 @@ URL.
  Add the OAuth Service to the Sandbox Catalog
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1.  From the left menu, click [[Home Button
-    Icon]].
-
-2.  Click the [[Manage
-    Catalog]] catalog
-    and select
-    [[Sandbox]] 
-
-3.  From the left menu,
-    click [[Settings]]
-    gearbox.
-
-4.  On the displayed menu, click [[OAuth
-    Providers]].
+1.  From the Sandbox Catalog settings, click [[OAuth
+    Providers]] in the left navigation menu.
 
 5.  Click [[Edit]].
 
 6.  Choose the OAuth service created above. Then
-    click [[Save]].
-    Click on the back arrow to go back to Manage.
+    click [[Save]].    
 
     ![](images/tutorial_html_6fa9961893476e8e.png)
 
- Create a New Version of the Inventory API
+ Create a New Version of the HotelReview API
 ================================================================================================
 
 API Connect supports multiple versions of APIs. Create a new version of
-the inventory API before making any changes that would break
+the HotelReview API before making any changes that would break
 functionality for existing consumers. 
 
  [Save as a New Version]
@@ -202,7 +163,7 @@ functionality for existing consumers. 
 1.  In the API Manager from the main menu on the left,
     click [[Develop]].
 
-2.  Click on the menu icon to the right of [[inventory
+2.  Click on the menu icon to the right of [[HotelReview
     1.0.0]] API
     and select [[Save as a new
     version]].  
@@ -213,29 +174,27 @@ functionality for existing consumers. 
     as [[2.0.0]] and
     click [[Submit]].
 
- Add OAuth security to the Inventory API
+ Add OAuth security to the HotelReview API
 ==============================================================================================
 
 Modify the security policy for your new API version to tell it to use
 your OAuth 2.0 provider.
 
-1.  From the Develop home page, click \`**Inventory 2.0.0**\`
+1.  From the Develop home page, click \`**hotelreview 2.0.0**\`
 
-2.  Navigate to the **[Security
-    Definitions]** section.
+2.  Navigate to the **[Security Scehmes]** section.
 
 3.  Click [[Add]].
 
-4.  On the API Security Definition screen, enter the following:
+4.  On the API Security Scehmes screen, enter the following:
 
     -   Name: **[oauth-1]**
 
-    -   Description: [[API OAuth security
-        definition]]
+    -   Description: [[API OAuth security definition]]
 
     -   Type: [[OAuth2]]
 
-    -   Flow: [[Resource owner]]
+    -   Flow: [[Resource owner - Password]]
 
     -   Token URL: keep
         default [[https://\$(catalog.url)/oauth/oauth2/token]]
@@ -245,8 +204,8 @@ your OAuth 2.0 provider.
 
         ![](images/tutorial_html_9b9f57dc81561ae7.png)
 
-5.  Navigate to the \`Security\` section and check the \`**oauth-1
-    (OAuth)**\` checkbox. Make sure \`inventory\` is also checked.  
+5.  Navigate to the \`Security\` section and check the \`**oauth-1 (OAuth)**\` checkbox. 
+	Make sure \`hotelreview\` is also selected under scope.  
 
     ![](images/tutorial_html_c8a8e86664fd2a1.png)
 
@@ -267,5 +226,5 @@ API. Throughout the tutorial, you explored the key takeaways:
 
 Continue the APIC Dev Jam! Go To [APIC (v10) Dev Jam Lab 4 - Use
 Lifecycle controls to version your
-API](https://integrationsuperhero.github.io/techcon2020/APICDevJam/Lab4) to
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4) to
 manage the lifecycle of this API and test your new OAuth secured API.

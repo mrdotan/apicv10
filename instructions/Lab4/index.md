@@ -1,10 +1,10 @@
 **APIC Dev Jam Lab 4 - Use Lifecycle Controls to Version your API**
 
-In the previous lab, you created a new version of the inventory API
+In the previous lab, you created a new version of the HotelReview API
 which is secured with an OAuth 2.0 provider. At this stage, however, the
 changes are still in draft mode. In order for the changes to take
 effect, you must publish the APIs to the developer portal and make them
-available for the API Consumers. Recall though that the inventory 1.0.0
+available for the API Consumers. Recall though that the HotelReview 1.0.0
 version is already running and has active subscribers.
 
 API lifecycle management capabilities is an essential part of the API
@@ -80,7 +80,7 @@ Prerequisites: Labs 1-3
 In IBM API Connect, Plans and APIs are grouped together in Products,
 with which you can manage the availability and visibility of APIs and
 Plans. Products allow related APIs to be bundled together for
-subscribers. In Lab 1, when the inventory microservice application was
+subscribers. In Lab 1, when the HotelReview microservice application was
 generated, it also created a default product. In this section, you will
 create a new product from scratch and stage it to your API Manager
 environment.
@@ -88,7 +88,7 @@ environment.
 The following link provides more information about API Products in IBM
 API Connect:
 
-<https://www.ibm.com/support/knowledgecenter/en/SSMNED_v10/com.ibm.apic.toolkit.doc/capim_products.html>
+<https://www.ibm.com/docs/en/api-connect/10.0.1.x?topic=applications-working-products>
 
 1.  Go to the **[Develop]** tab in your API
     Connect manager interface.
@@ -101,12 +101,12 @@ API Connect:
 
     ![](images/tutorial_html_1b6ee2ef86d15297.png)
 
-4.  Title this product [[Inventory Products]] and
+4.  Title this product [[HotelReview Products]] and
     click [[Next.]]
 
     ![](images/tutorial_html_f9602420f730e70a.png)
 
-5.  Select the [[inventory
+5.  Select the [[hotelreview
     2.0.0 API]],
     then click **[Next]**.
 
@@ -163,7 +163,7 @@ affect changes to the staged version.
     ![](images/tutorial_html_3d083025950cefa6.png)
 
 3.  Choose your **[Sandbox]** catalog as a
-    target for Staging.
+    target for Staging and Click [[Next]].
 
     **Note:**
 
@@ -171,6 +171,8 @@ affect changes to the staged version.
     associated with the Catalog.
 
     ![](images/tutorial_html_d3add46b169ce08a.png)
+
+4.  Keep the defaults and **Stage** the Product.
 
  Supersede the Old Product
 ================================================================================
@@ -184,38 +186,36 @@ running version of an API Product with a new one.
 1. Switch to the **[Manage]** tab of the interface and click on
   your **[Sandbox]** catalog tile.
 
-  ![](images/tutorial_html_dd28754d9b40b41b.gif)
+  ![](images/tutorial_html_dd28754d9b40b41b.png)
 
 2. The **[Products tab]** will list all of
   the API Products that this Catalog is currently managing.
 
-3. Make sure your newly created API Product **[Inventory Products]** is in
+3. Make sure your newly created API Product **[HotelReview Products]** is in
   the **[Staged]** status while the
-  old **[Inventory APIs]** product
+  old **[HotelReview APIs]** product
   is **[Published]** in the Catalog.
 
   ![](images/tutorial_html_b69739b268fcf1bf.png)
 
-4. Click on the menu options for the **[Inventory
-  APIs]** product and select
+4. Click on the menu options for the **[HotelReview APIs]** product and select
   the **[Supersede]** option.
-
-  ![](images/tutorial_html_779570cda3681c33.png)
-
-5. Select the **[Inventory Products]** product, as this is the one
-  which will supersede Inventory APIs .
 
   ![](images/tutorial_html_4be14720ca4455b0.png)
 
+5. Select the **[HotelReview Products]** product, as this is the one
+  which will supersede HotelReview APIs .
+
+  ![](images/tutorial_html_779570cda3681c33.png)
+
 6. Click **[Next]** in the bottom.
 
-7. In order to maintain our consumers' entitlements, we need to migrate
+7. In order to maintain our consumer's entitlements, we need to migrate
   their plan subscriptions.
 
-  Both of our Products have plans called**[ Default
-  Plan.]** You will now choose to move
-  subscribers from the Inventory Product's default plan to the
-  Inventory Product's default plan.
+  Both of our Products have plans called **[ Default  Plan]** You will now choose to move
+  subscribers from the HotelReview API's product default plan to the
+  HotelReview Product's default plan.
 
   In the drop-down menu, select Default Plan and then
   click [[Supersede]].
@@ -223,7 +223,7 @@ running version of an API Product with a new one.
    ![](images/tutorial_html_6303625db3f1ae01.png)
 
 8. API Connect will take care of deprecating the old product and
-  publishing the new one. As a result, the new **Inventory Products** product
+  publishing the new one. As a result, the new **HotelReview Products** product
   will be published, while the old one will be automatically deprecated.
 
    ![](images/tutorial_html_d7847d64c8d3c2d5.png)
@@ -234,16 +234,15 @@ running version of an API Product with a new one.
 In this section, you will test the new version of the API to ensure that
 OAuth is working properly.
 
-1.  Open your API Portal in a new browser tab and log in with your
+1.  Open your Developer Portal in a new browser tab and log in with your
     developer account. 
 
 2.  Click the **[API Products]** tab.
 
-3.  Notice that the old **[Inventory
-    APIs]** product is no longer available.
-    It has been replaced by your new **[Inventory Products]** product.
+3.  Notice that the old **[HotelReview APIs]** product is no longer available.
+    It has been replaced by your new **[HotelReview Products]** product.
 
-4.  Click on the **[ Inventory Products]**. 
+4.  Click on the **[ HotelReview Products]**. 
 
     **Note:** There is no need
     to re-subscribe your application to the plan. By
@@ -254,14 +253,14 @@ OAuth is working properly.
 
     ![](images/tutorial_html_b752e8ed59be706d.png)
 
-5.  Select Subscribe Default Plan and then select IBM Consumer App to
-    subscribe the app.
+5.  Select Default Plan and then select IBM Consumer App to
+    subscribe the app and complete the subscription.
 
-6.  Click on the **[inventory API]** from
-    the palette menu on the left.
+6.  Click on the **[HotelReview API]** under
+    HotelReview Products.
 
-7.  Select the **[GET /Items]** operation
-    and click on the **[Try It ]**button at
+7.  Select the **[GET /reviews]** operation
+    and click on the **[Try It ]** button at
     the top. Notice that we now have an additional OAuth security
     requirement defined.    
 
@@ -277,7 +276,7 @@ OAuth is working properly.
 
 11. In
     the **[Username]** and **[Password]** fields,
-    you can enter any text. Select the inventory scope. **Note:** 
+    you can enter any text. Select the HotelReview scope. **Note:** 
     Recall that when we configured the OAuth API, we provided an
     Authentication URL as the method for validating the user
     credentials. The URL that we provided will respond back OK with any
@@ -294,17 +293,17 @@ OAuth is working properly.
 
     ![](images/tutorial_html_deb6f414f76d453e.png)
 
-13. Click the **[Send]** button to invoke
+13. Specify the required parameters **page** and **size** and Click the **[Send]** button to invoke
     the API. The request will include the OAuth bearer token in
     the **[Authorization]** header.
 
     ![](images/tutorial_html_40c0aad7db0f83e7.png)
 
-<!--14. To prove that the token is being validated, you can either remove or
+14. To prove that the token is being validated, you can either remove or
     modify the contents of the **[Access
     Token]** field. Then click
     the **[Send]** button again and see
-    the **401 Unauthorized **error response.-->
+    the **401 Unauthorized ** error response.
 
  Summary
 ==============================================================
@@ -319,6 +318,6 @@ your API. Throughout the tutorial, you explored the key takeaways:   
 -   Test Your OAuth API in the Developer Portal.
 
 Continue the APIC Dev Jam! Go to[ APIC Dev Jam - Lab 5 - Advanced API
-Assembly](https://integrationsuperhero.github.io/techcon2020/APICDevJam/Lab5) to
+Assembly](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab5) to
 learn about adding business logic to the API Gateway through the use of
 policies. 
