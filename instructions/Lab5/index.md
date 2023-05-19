@@ -630,7 +630,7 @@ consumers, providing them a maps link to the nearest store location.
  Configure the `get.stores` Case
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-This operation will call out to the Google Geocode API to obtain
+This operation will call out to the Custom Geocode API to obtain
 location information about the provided zip code, and will then utilize
 a simple gatewayscript to modify the response and provide a formatted
 Google Maps link.
@@ -706,7 +706,6 @@ apim.setvariable('message.body', rspObj)
     the navigation menu to return to the list of APIs and Products in
     your system.
 
-    ![](images/tutorial_html_a810481f55373ff0.png)
 
  Summary
 ==============================================================
