@@ -86,7 +86,7 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
     ![](images/lab9-pic4.png)
 
 5.  Click on the 'REST API' under 'All Connectors'. You will see the steps required to setup your CLI for StepZen and connect to your StepZen account.
-     ![](images/lab9-pic5.png)
+     ![](images/lab9-pic51.png)
     
     Create a directory on your local machine and navigate to it using CLI:
     ![](images/lab9-pic6.png)
