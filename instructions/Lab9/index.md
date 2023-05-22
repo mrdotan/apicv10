@@ -69,11 +69,9 @@ Prerequisites: None
 
     ![](images/lab9-pic1.png)
 
-2.  To create a GraphQL proxy definition, select From Existing GraphQL service. When you
-    point to an existing GraphQL server, API Connect introspects the
-    service and automatically creates a GraphQL proxy service.
+2.  You can sign-up with your GitHub account or with your email address.
 
-    ![](images/tutorial_html_797b2f887d77017c.png)
+    ![](images/lab9-pic2.png)
 
 3.  Enter the following values and click Next. You can use default
     values for the rest.
