@@ -1,4 +1,4 @@
-**APIC VEST AP - Lab 9 -- Creating GraphQL API with StepZen**
+**APIC VEST - Lab 9 -- Creating GraphQL API with StepZen**
 
 In this lab, you will explore how you can quickly expose a REST backend as a GraphQL API. 
 
@@ -14,7 +14,7 @@ In this tutorial, you will do the following activities:
 
 -   Test the GraphQL API
 
-APIC VEST AP Series
+APIC VEST Series
 =======================================================================================================================================================================================================================================================================================================
 
 The APIC VEST AP Series is a hands-on workshop with lab exercises that
@@ -87,6 +87,10 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
 
 5.  Click on the 'REST API' under 'All Connectors'. You will see the steps required to setup your CLI for StepZen and connect to your StepZen account.
      ![](images/lab9-pic5.png)
+    
+    Create a directory on your local machine and navigate to it using CLI:
+    ![](images/lab9-pic6.png)
+     
 
 6.  Keep both Secure Client ID and CORS checked and click Next
 
