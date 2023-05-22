@@ -307,13 +307,13 @@ query Query {
 =============================================================================================
 
 1.  Sign in to API Connect Developer Portal using the Developer Portal
-    URL, username and password provided by the instructor.
+    URL, username and password.
 
     ![](images/tutorial_html_540cbe0b9202f4a7.png)
 
     ![](images/tutorial_html_c34973eb377015ce.png)
 
-2.  Developer Portal displays all the products that are currently
+2.  Go to API Prpducts in top menu. Developer Portal displays all the products that are currently
     published. Locate swapi-product and select the product.
 
     ![](images/tutorial_html_2635d049f12d59c6.png)
