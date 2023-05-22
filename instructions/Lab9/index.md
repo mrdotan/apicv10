@@ -106,7 +106,7 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
 
 6.  We have hosted a REST backend that returns a list of user details.
     
-    `http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/showAll`
+    <http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/showAll>
     
     Let us import this REST endpoint from the terminal using StepZen CLI.
     
