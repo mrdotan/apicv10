@@ -112,7 +112,7 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
     
     `stepzen import curl http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/showAll`
     
-    Supply the api endpoint name and enter.
+    Supply the api endpoint name as `api/getUsers` and enter.
     
     ![](images/lab9-pic9.png)
     
