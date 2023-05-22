@@ -60,7 +60,7 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 [Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
 
-Prerequisites: None
+Prerequisites: Node.js and npm interface on your local machine. [Click here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for instructions.
 
  Create a GraphQL API with StepZen
 =================================================================================
@@ -72,6 +72,8 @@ Prerequisites: None
 2.  You can sign-up with your GitHub account or with your email address.
 
     ![](images/lab9-pic2.png)
+    
+    Make sure to verify the account by clicking on the link received in email.
 
 3.  After you successfully sign-up, you will by default have subscription to free plan that allows you to host two endpoints and 300k calls/month. Click on the 'key' icon in left hand side menu bar to look at your account information.
 
@@ -83,9 +85,7 @@ Prerequisites: None
 
     ![](images/lab9-pic4.png)
 
-5.  A review of the schema shows that no limit is set on the size of the
-    list. You will fix this warning in later steps. Click Next to
-    continue.
+5.  Click on the 'REST API' under 'All Connectors'
 
     ![](images/tutorial_html_8104c10fce21e609.png)
 
