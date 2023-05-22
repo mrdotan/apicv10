@@ -65,7 +65,7 @@ Prerequisites: None
  Create a GraphQL API with StepZen
 =================================================================================
 
-1.  Go to https://stepzen.com/developers and click on 'Start for Free' button.
+1.  Go to https://stepzen.com/developers and click on 'Start for Free' button in top right corner.
 
     ![](images/lab9-pic1.png)
 
