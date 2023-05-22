@@ -77,19 +77,20 @@ Prerequisites: None
 
     ![](images/tutorial_html_797b2f887d77017c.png)
 
-3.  Enter the following values and click Next. You can use default
+3.  We will use SWAPI (The Star Wars API).
+	Enter the following values and click Next. You can use default
     values for the rest.
 
-    Title: countries
+    Title: swapi
 
-    GraphQL server URL: https://countries.trevorblades.com/graphql
+    GraphQL server URL: https://swapi-graphql.netlify.app/.netlify/functions/index
 
     ![](images/tutorial_html_f83e60ae96763438.png)
 
     ![](images/tutorial_html_90e0cbad29eca5a.png)
 
-4.  The schema validator reports warning and errors if found. There are 7
-    warnings in the countries schema imported from the server. You can
+4.  The schema validator reports warning and errors if found. There are 88
+    warnings in the swapi schema imported from the server. You can
     review the schema warning details and also select the end points
     interested for this proxy. Select all the available end points.
 
@@ -147,7 +148,7 @@ Prerequisites: None
 
     ![](images/tutorial_html_a2cd4daada4f2ca5.png)
 
-13. Countries GraphQL backend API doesn't support compression, hence we need to 
+13. Swapi GraphQL backend API doesn't support compression, hence we need to 
     disable the compression. Click the Source button next to Pencil icon at the top 
 	and search for **compression** and set the value to false, as shown below.
 	
@@ -165,7 +166,7 @@ Prerequisites: None
 16. To test the API select the end point for POST method. The URL should look like this (your
     value may be different):
 
-    <https://apic-gw-gateway-apic.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/joy-vad/sandbox/countries/graphql>
+    <https://apic-gw-gateway-apic.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/joy-vad/sandbox/swapi/graphql>
       
 
 17. API Connect Test feature also includes GraphQL Editor called **GraphiQL**. Enter the
@@ -173,12 +174,33 @@ Prerequisites: None
     to view formatting string.
 
 ```
-{
-  continents {
-    name
-    code
-    
-  }
+query Query {
+	allFilms(last: 10) {
+		edges{node{title}}
+		films {
+			title
+			episodeID
+			vehicleConnection(last: 10) {
+				vehicles {
+					name
+					model
+				}
+			}
+			speciesConnection(last: 1000) {
+				species {
+					name
+					designation
+					classification
+					personConnection(last: 10) {
+						people {
+							name
+							gender
+						}
+					}
+				}
+			}
+		}
+	}
 }
 ```
 
@@ -203,21 +225,28 @@ Prerequisites: None
     ![](images/tutorial_html_1d05935575c71f8e.png)
 
 21. You can request additional queries, refer to the schema editor
-    for details or go to https://github.com/trevorblades/countries/ for example requests).
+    for details or go to https://github.com/graphql/swapi-graphql/tree/master/doc/example_queries for example requests).
     
 ```
-{
-  country(code: "ID") {
-    name
-    native
-    capital
-    emoji
-    currency
-    languages {
-      code
-      name
-    }
-  }
+query Query {
+	allVehicles(last: 10) {
+		edges{node{name}}
+		vehicles {
+			name
+			manufacturers
+      model
+      vehicleClass
+			
+			pilotConnection(last: 10) {
+				pilots {
+					name
+					birthYear
+					eyeColor
+					gender
+				}
+			}
+		}
+	}
 }
 ```
 
@@ -232,12 +261,12 @@ Prerequisites: None
 
     ![](images/tutorial_html_4f43bda35452bd65.png)
 
-2.  Name the product as Countries Product and click Next
+2.  Name the product as Swapi Product and click Next
 
     ![](images/tutorial_html_d0c3992a4bd7bc24.png)
 
-3.  Add Countries API to the product by selecting countries. Click Next to
-    continue to create the countries-product.
+3.  Add swapi API to the product by selecting swapi. Click Next to
+    continue to create the swapi-product.
 
     ![](images/tutorial_html_4ae09f5fddd82bab.png)
 	
@@ -247,7 +276,7 @@ Prerequisites: None
 
     ![](images/tutorial_html_1adf1922464ea393.png)
 
-6.  Click Edit Product to Edit the product countries-product to review the details. 
+6.  Click Edit Product to Edit the product swapi-product to review the details. 
     
 	![](images/edit-product.png)
 
@@ -285,11 +314,11 @@ Prerequisites: None
     ![](images/tutorial_html_c34973eb377015ce.png)
 
 2.  Developer Portal displays all the products that are currently
-    published. Locate countries-product and select the product.
+    published. Locate swapi-product and select the product.
 
     ![](images/tutorial_html_2635d049f12d59c6.png)
 
-3.  The selected product lists one API (countries api) and one Plan
+3.  The selected product lists one API (swapi api) and one Plan
     (Default Plan). Click Select to subscribe to the plan.
 
     ![](images/tutorial_html_bd0ea34d4f40d756.png)
@@ -300,13 +329,13 @@ Prerequisites: None
 
     ![](images/tutorial_html_2fd3cf48168675e5.png)
 	
-5.  Subscribe to Countries product and Click Next.
+5.  Subscribe to swapi product and Click Next.
 
 6.  Review summary and Click Done.
 
     ![](images/dev_portal_subscription.png)			
 
-7.  Select countries API to review and test the API. Click countries to
+7.  Select swapi API to review and test the API. Click swapi to
     continue
 
     ![](images/tutorial_html_8a5975dd9780a924.png)
