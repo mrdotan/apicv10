@@ -4,15 +4,15 @@ In this lab, you will explore how you can quickly expose a REST backend as a Gra
 
 Using StepZen's CLI you can generate your GraphQL schema and resolvers for any backend data source (REST, Databases, GraphQL, Web3) with a few commands.
 
-In this tutorial, you will explore the following key capabilities:
+In this tutorial, you will do the following activities:
 
--   Create a GraphQL Proxy API
+-   Sign-up for a free account in StepZen
 
--   Learn about GraphQL introspection and Schema Editor
+-   Create GraphQL API for a REST backend
 
--   Test APIs by using the built-in GraphQL editor
+-   Deploy GraphQL API in StepZen
 
--   Review API Assembly Policies for the cost end point
+-   Test the GraphQL API
 
 APIC Dev Jam Series
 =======================================================================================================================================================================================================================================================================================================
