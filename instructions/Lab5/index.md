@@ -727,6 +727,6 @@ takeaways:
 
 -   Use GatewayScript directly within an API assembly.
 
-Continue with the APIC Dev Jam! Go
-to [APIC Dev Jam - Lab 6 - Working with API Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6))] to
+Continue with the APIC VEST Series! Go
+to [APIC VEST Lab 6 - Working with API Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6))] to
 learn about bundling the API's into a Product and publishing it to the consumer portal.
