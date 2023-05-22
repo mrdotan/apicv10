@@ -79,12 +79,9 @@ Prerequisites: None
     
     The 'Admin Key' displayed here is used to authenticate to perform the administrative operations, like deployment of APIs in the account; while the 'API Key' is used to autneticate API calls at runtime.
 
-4.  The schema validator reports warning and errors if found. There are 7
-    warnings in the countries schema imported from the server. You can
-    review the schema warning details and also select the end points
-    interested for this proxy. Select all the available end points.
+4.  Click on the 'flag' icon in left hand side menu bar to go to getting-started page.
 
-    ![](images/tutorial_html_3cc23a786c4f73c2.png)
+    ![](images/lab9-pic4.png)
 
 5.  A review of the schema shows that no limit is set on the size of the
     list. You will fix this warning in later steps. Click Next to
