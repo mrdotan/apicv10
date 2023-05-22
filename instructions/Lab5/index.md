@@ -331,7 +331,7 @@ API definition.
     element. A line will be drawn between the two, indicating a mapping from
     the source to the target.
 
-	![](images/tutorial_html_e18d417ab873efe0.png)
+   ![](images/tutorial_html_e18d417ab873efe0.png)
 
 14. Click [[\`X\`]] in
     the map editor to return to the policy pipeline.
