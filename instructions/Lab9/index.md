@@ -133,10 +133,7 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
 Summary
 =================================================================================================================
 
-Congratulations! You have successfully created a GraphQL Proxy API,
-published the API as part of a Product, applied controls and rate
-limits, and tested using Developer Portal.
+Congratulations! You have successfully created a GraphQL API for a REST backend.
 
-To learn more about Cloud Pak for Integration and API Life Cycle
-Management, visit <https://www.ibm.com/cloud/cloud-pak-for-integration>
+To learn more about StepZen, visit <https://stepzen.com/docs>
 
