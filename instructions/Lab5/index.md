@@ -144,7 +144,7 @@ for the financing API.
    
    ![](images/add_property1.png)   
    
-	![](images/tutorial_html_c600b4bb8ec6adee.png)
+   ![](images/tutorial_html_c600b4bb8ec6adee.png)
 
 11. Click [[Paths]] in
     the navigation menu on the left. Then
