@@ -73,16 +73,11 @@ Prerequisites: None
 
     ![](images/lab9-pic2.png)
 
-3.  Enter the following values and click Next. You can use default
-    values for the rest.
+3.  After you successfully sign-up, you will by default have subscription to free plan that allows you to host two endpoints and 300k calls/month. Click on the 'key' icon in left hand side menu bar to look at your account information.
 
-    Title: countries
-
-    GraphQL server URL: https://countries.trevorblades.com/graphql
-
-    ![](images/tutorial_html_f83e60ae96763438.png)
-
-    ![](images/tutorial_html_90e0cbad29eca5a.png)
+    ![](images/lab9-pic3.png)
+    
+    The 'Admin Key' displayed here is used to authenticate to perform the administrative operations, like deployment of APIs in the account; while the 'API Key' is used to autneticate API calls at runtime.
 
 4.  The schema validator reports warning and errors if found. There are 7
     warnings in the countries schema imported from the server. You can
