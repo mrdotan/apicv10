@@ -234,7 +234,7 @@ for the financing API.
    
     Click **Create** to go back to the main API Editor.
 	
-	![](images/tutorial_html_c600b4bb8ec6adee.png)
+   ![](images/tutorial_html_c600b4bb8ec6adee.png)
 
 22. Click [[Save]] to
     save the API definition.
