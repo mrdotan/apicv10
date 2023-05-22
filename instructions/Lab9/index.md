@@ -91,6 +91,14 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
     Create a directory on your local machine and navigate to it using CLI:
     ![](images/lab9-pic6.png)
      
+     Install the StepZen CLI
+     `npm install -g stepzen`
+     ![](images/lab9-pic7.png)
+     
+     Login with your StepZen account
+     `stepzen login -a puertoescondido`
+     Enter the admin key when prompted.
+      ![](images/lab9-pic8.png)
 
 6.  Keep both Secure Client ID and CORS checked and click Next
 
