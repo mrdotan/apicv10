@@ -309,7 +309,7 @@ OAuth is working properly.
  Summary
 ==============================================================
 
-You completed the APIC Dev Jam Lab 4 - Use Lifecycle Controls to Version
+You completed the APIC VEST Lab 4 - Use Lifecycle Controls to Version
 your API. Throughout the tutorial, you explored the key takeaways:   
 
 -   Create a new API Product.
@@ -318,7 +318,7 @@ your API. Throughout the tutorial, you explored the key takeaways:   
 
 -   Test Your OAuth API in the Developer Portal.
 
-Continue the APIC Dev Jam! Go to[ APIC Dev Jam - Lab 5 - Advanced API
+Continue the APIC VEST Series! Go to[ APIC VEST Lab 5 - Advanced API
 Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5) to
 learn about adding business logic to the API Gateway through the use of
 policies. 
