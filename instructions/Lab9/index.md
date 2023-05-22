@@ -104,9 +104,18 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
      Enter the admin key when prompted.
       ![](images/lab9-pic8.png)
 
-6.  Keep both Secure Client ID and CORS checked and click Next
+6.  We have hosted a REST backend for user management.
+    
+    `http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/swagger.json`
+    
+    Let us import this REST endpoint from the terminal using StepZen CLI.
+    
+    `stepzen import curl http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/swagger.json`
+    
+    Supply the api endpoint name and enter.
+    
+    ![](images/lab9-pic9.png)
 
-    ![](images/tutorial_html_464f81f24c7d47dd.png)
 
 7.  API Connect successfully created a GraphQL proxy API. You can edit
     the API to view more details on the proxy API just created. Click
