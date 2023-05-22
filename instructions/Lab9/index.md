@@ -125,33 +125,10 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
 
     ![](images/lab9-pic11.png)
 
-8.  GraphQL APIs are structured the same as REST APIs with some
-    additional options. Just like REST APIs, you will be able to add
-    security definitions, properties and Activity logs from the left
-    menu bar. You can also view the Source and Policies tabs similar to
-    REST APIs. You will notice a new tab for GraphQL APIs. Click on
-    GraphQL Schema tab to view the schema.
+8.  From this playground you can test the hosted GraphQL API
 
-    ![](images/tutorial_html_b27d147e1a49276b.png)
+   ![](images/lab9-pic12.png)
 
-9.  GraphQL Schema editor displays Type and Weight information. The
-    weighting factor is used when calculating the type cost for a
-    request to the GraphQL API. For example, a field that requires
-    extensive CPU or memory use on the server to retrieve its value
-    would be given a higher cost.
-
-    ![](images/tutorial_html_ab0c11b157a7cd4b.png)
-
-10. Click View in the warnings to review the warning details. In
-    addition to the warning details, the Warning window gives an option
-    to fix the warnings by apply the limits. Click Apply All to continue.
-
-    ![](images/tutorial_html_ed0f88002c9eb816.png)
-
-11. After applyting the recommendation the wanrning message is removed.
-    Click Save to save the API definition .
-
-    ![](images/tutorial_html_63ce76efdb0032d7.png)
 
 Summary
 =================================================================================================================
