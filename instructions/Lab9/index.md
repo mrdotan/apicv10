@@ -121,7 +121,7 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
     ![](images/lab9-pic10.png)
 
 
-7.  Now go to StepZen dashboard `https://dashboard.stepzen.com/explorer`. You should see the GraphQL API endpoint there.
+7.  Now go to StepZen dashboard <https://dashboard.stepzen.com/explorer>. You should see the GraphQL API endpoint there.
 
     ![](images/lab9-pic11.png)
 
