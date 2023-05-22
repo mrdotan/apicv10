@@ -1,4 +1,4 @@
-**APIC VEST AP - Lab 9 -- Creating GraphQL API with StepZen**
+**APIC VEST - Lab 9 -- Creating GraphQL API with StepZen**
 
 In this lab, you will explore how you can quickly expose a REST backend as a GraphQL API. 
 
@@ -14,7 +14,7 @@ In this tutorial, you will do the following activities:
 
 -   Test the GraphQL API
 
-APIC VEST AP Series
+APIC VEST Series
 =======================================================================================================================================================================================================================================================================================================
 
 The APIC VEST AP Series is a hands-on workshop with lab exercises that
