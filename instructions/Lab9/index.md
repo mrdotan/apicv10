@@ -77,7 +77,7 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
 
 3.  After you successfully sign-up, you will by default have subscription to free plan that allows you to host two endpoints and 300k calls/month. Click on the 'key' icon in left hand side menu bar to look at your account information.
 
-    ![](images/lab9-pic3.png)
+    ![](images/lab9-pic51.png)
     
     The 'Admin Key' displayed here is used to authenticate to perform the administrative operations, like deployment of APIs in the account; while the 'API Key' is used to autneticate API calls at runtime.
 
