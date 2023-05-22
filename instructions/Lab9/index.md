@@ -14,13 +14,13 @@ In this tutorial, you will do the following activities:
 
 -   Test the GraphQL API
 
-APIC Dev Jam Series
+APIC VEST AP Series
 =======================================================================================================================================================================================================================================================================================================
 
-The APIC Dev Jam Series is a hands-on workshop with lab exercises that
+The APIC VEST AP Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
-to create a successful API strategy. There are 8 labs and each is 30
+to create a successful API strategy. There are 9 labs and each is 30
 minutes long. Make sure you choose enough time in your reservation to
 get through all the labs! 
 
@@ -57,6 +57,8 @@ Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/
 
 [Lab 8: Create and test GraphQL Proxy
 API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
+
+[Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
 
 Prerequisites: None
 
