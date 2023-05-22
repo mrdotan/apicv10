@@ -104,13 +104,13 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
      Enter the admin key when prompted.
       ![](images/lab9-pic8.png)
 
-6.  We have hosted a REST backend for user management.
+6.  We have hosted a REST backend that returns a list of user details.
     
-    `http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/swagger.json`
+    `http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/showAll`
     
     Let us import this REST endpoint from the terminal using StepZen CLI.
     
-    `stepzen import curl http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/swagger.json`
+    `stepzen import curl http://usermgmt-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/user/v1/showAll`
     
     Supply the api endpoint name and enter.
     
