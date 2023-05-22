@@ -1,12 +1,8 @@
-**APIC Dev Jam - Lab 8 -- Creating GraphQL Proxy API**
+**APIC VEST AP - Lab 9 -- Creating GraphQL API with StepZen**
 
-In this lab, you will explore the how to define GraphQL APIs that proxy
-to a backend GraphQL server. GraphQL is a query language for APIs that
-gives an application client greater control over what data it retrieves
-in an API request when compared with a REST API request.
+In this lab, you will explore how you can quickly expose a REST backend as a GraphQL API. 
 
-API Connect GraphQL support also allows rate limiting and other controls
-using API Gateway.
+Using StepZen's CLI you can generate your GraphQL schema and resolvers for any backend data source (REST, Databases, GraphQL, Web3) with a few commands.
 
 In this tutorial, you will explore the following key capabilities:
 
