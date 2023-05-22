@@ -216,6 +216,6 @@ key takeaways:
 
 -   Publish a product.
 
-Continue with the APIC Dev Jam! Go
-to [APIC Dev Jam - Lab 7 - The Consumer Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7))] to
+Continue with the APIC VEST Series! Go
+to [APIC VEST Lab 7 - The Consumer Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7))] to
 explore the consumer experience for APIs that have been exposed to your Sandbox catalog.
