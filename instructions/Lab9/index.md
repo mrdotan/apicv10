@@ -62,10 +62,10 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 Prerequisites: None
 
- Create a GraphQL Proxy API
+ Create a GraphQL API with StepZen
 =================================================================================
 
-1.  Select Develop API and click Add-\>API
+1.  Go to https://stepzen.com/developers and click on 'Start for Free' button.
 
     ![](images/tutorial_html_c0c5acec16e566bb.png)
 
