@@ -1,4 +1,4 @@
-**APIC VEST - Lab 2 - The Developer Portal Experience**
+**APIC VEST Lab 2 - The Developer Portal Experience**
 
 In this lab, we will take the API created in Lab 1 and publish it to a
 Developer Portal, ready for consumption by app developers. We will begin
@@ -236,7 +236,7 @@ and return here to test again.]**
  Summary
 ==============================================================
 
-You completed the APIC Dev Jam Lab 2 - The Developer Portal Experience.
+You completed the APIC VEST Lab 2 - The Developer Portal Experience.
 Throughout the tutorial, you explored the key takeaways: 
 
 -   Configure Developer Portal and publish the APIs.
@@ -247,7 +247,7 @@ Throughout the tutorial, you explored the key takeaways: 
 
 -   Test API in Developer Portal. 
 
-Continue the APIC Dev Jam! Go to [APIC Dev Jam - Lab 3 - Add OAuth
+Continue the APIC VEST Series! Go to [APIC VEST Lab 3 - Add OAuth
 Security to your
 API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3) to
 learn about configuring an OAuth provider service. 
