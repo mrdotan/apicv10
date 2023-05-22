@@ -102,7 +102,7 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
      `stepzen login -a <Your account name>`
      
      Enter the admin key when prompted.
-      ![](images/lab9-pic8.png)
+      ![](images/lab9-pic81.png)
 
 6.  We have hosted a REST backend that returns a list of user details.
     
