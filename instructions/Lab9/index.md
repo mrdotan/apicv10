@@ -119,14 +119,11 @@ Prerequisites: Node.js and npm interface on your local machine. [Click here](htt
     Now type `stepzen start` in your terminal. This deploys the GraphQL API in StepZen and you can explore it from StepZen dashboard.
     
     ![](images/lab9-pic10.png)
-    
 
 
-7.  API Connect successfully created a GraphQL proxy API. You can edit
-    the API to view more details on the proxy API just created. Click
-    EDIT API to continue.
+7.  Now go to StepZen dashboard `https://dashboard.stepzen.com/explorer`. You should see the GraphQL API endpoint there.
 
-    ![](images/tutorial_html_e70bb58508f9b662.png)
+    ![](images/lab9-pic11.png)
 
 8.  GraphQL APIs are structured the same as REST APIs with some
     additional options. Just like REST APIs, you will be able to add
