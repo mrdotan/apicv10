@@ -1,33 +1,36 @@
-**APIC Dev Jam Lab Instructions**
+**APIC VEST Lab Instructions**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab1)
+service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab2)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab3)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab4)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab5)
+Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab6)
+Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab7)
+Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/instructions/Lab8)
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
-**APIC Dev Jam Lab Resources**
+[Lab 9: Creating GraphQL API with StepZen
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
 
-[inventory.yaml](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/resources/inventory.yaml)
+**APIC VEST Lab Resources**
 
-[logistics.yaml](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/resources/logistics.yaml)
+[hotelreview.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/hotelreview.yaml)
 
-[calculate.wsdl](https://github.com/ibm-cloudintegration/dte-labs/blob/master/APICv10/resources/calculate.wsdl)  
+[logistics.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/logistics.yaml)
+
+[calculate.wsdl](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/calculate.wsdl)  
