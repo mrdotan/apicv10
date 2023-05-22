@@ -21,7 +21,7 @@ In this tutorial, you will explore the following key capabilities:
 APIC VEST Series
 =======================================================================================================================================================================================================================================================================================================
 
-The APIC Dev Jam Series is a hands-on workshop with lab exercises that
+The APIC VEST Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30
