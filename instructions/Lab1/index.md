@@ -336,7 +336,7 @@ lab is written to the gateway. 
  Summary
 =============================================================
 
-You completed the APIC Dev Jam Lab 1 - Create and Secure an
+You completed the APIC VEST Lab 1 - Create and Secure an
 API. Throughout the tutorial, you explored the key takeaways:
 
 -   Create an API by importing an OpenAPI definition for an existing
