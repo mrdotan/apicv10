@@ -28,8 +28,7 @@ full API Connect installation in Cloud Pak for Integration. The login
 information to the APIC cluster will be sent in a separate email when
 you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
 to access the cluster using the credentials supplied. Make sure you
-login using API Manager User Registry not Common Services
-registry.]**
+login using Common Services registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
 service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
