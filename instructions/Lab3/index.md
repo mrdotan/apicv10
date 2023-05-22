@@ -215,7 +215,7 @@ your OAuth 2.0 provider.
  Summary
 ==============================================================
 
-You completed the APIC Dev Jam Lab 3 - Add OAuth Security to your
+You completed the APIC VEST Lab 3 - Add OAuth Security to your
 API. Throughout the tutorial, you explored the key takeaways:
 
 -   Configure an OAuth 2.0 service, the Resource Owner Password grant
@@ -225,7 +225,7 @@ API. Throughout the tutorial, you explored the key takeaways:
 
 -   Secure the new version of your API.
 
-Continue the APIC Dev Jam! Go To [APIC (v10) Dev Jam Lab 4 - Use
+Continue the APIC VEST Series! Go To [APIC VEST Lab 4 - Use
 Lifecycle controls to version your
 API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4) to
 manage the lifecycle of this API and test your new OAuth secured API.
