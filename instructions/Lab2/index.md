@@ -59,7 +59,7 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 [Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
 
-Prerequisites: Labs 1
+Prerequisites: Lab 1
 
  Generate the developer portal
 ====================================================================================
