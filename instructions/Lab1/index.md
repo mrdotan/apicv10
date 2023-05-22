@@ -329,7 +329,7 @@ lab is written to the gateway. 
 
 8.  The Product is now published successfully with the API base URL
     listed and available for developers from the developer portal. Go
-    to [APIC (v10) Dev Jam - Lab 2 - The Developer Portal
+    to [APIC VEST - Lab 2 - The Developer Portal
     Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2) to
     see how to access this API as a developer.
 
