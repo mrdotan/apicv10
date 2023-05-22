@@ -67,7 +67,7 @@ Prerequisites: None
 
 1.  Go to https://stepzen.com/developers and click on 'Start for Free' button.
 
-    ![](images/tutorial_html_c0c5acec16e566bb.png)
+    ![](images/lab9-pic1.png)
 
 2.  To create a GraphQL proxy definition, select From Existing GraphQL service. When you
     point to an existing GraphQL server, API Connect introspects the
