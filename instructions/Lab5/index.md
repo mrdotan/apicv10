@@ -1,4 +1,4 @@
-**APIC Dev Jam Lab 5 - Advanced API Assembly**
+**APIC VEST Lab 5 - Advanced API Assembly**
 
 In the previous labs, you have been working with an API that acts as a
 pass-through to a microservice application.
@@ -23,13 +23,13 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Use GatewayScript directly within an API assembly.
 
-APIC Dev Jam Series
+APIC VEST Series
 ===================================================================================================================================================================================================================================
 
-The APIC Dev Jam Series is a hands-on workshop with lab exercises that
+The APIC VEST Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
-to create a successful API strategy. There are 8 labs and each is 30
+to create a successful API strategy. There are 9 labs and each is 30
 minutes long. Make sure you choose enough time in your reservation to
 get through all the labs! 
 
@@ -38,8 +38,7 @@ full API Connect installation in Cloud Pak for Integration. The login
 information to the APIC cluster will be sent in a separate email when
 you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
 to access the cluster using the credentials supplied. Make sure you
-login using API Manager User Registry not Common Services
-registry.]**
+login using Common Services registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
 service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
@@ -64,6 +63,8 @@ Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/
 
 [Lab 8: Create and test GraphQL Proxy
 API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
+
+[Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
 
 Prerequisites: Labs 1-4
 
