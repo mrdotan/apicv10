@@ -86,9 +86,9 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 5. We will first create a provider organization from the Cloud Manager console.
    Hence, change the url to Cloud Manager console by replacing **manager** to **admin** in the url as below.
    
-   From: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/\**manager\**/sign-in/
+   From: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/manager/sign-in/
    
-   To: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/\**admin\**/sign-in/
+   To: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/admin/sign-in/
    
 6. Log in to the Cloud Manager console using the **Common Services User Registry** user registry.
 
