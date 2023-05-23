@@ -1,5 +1,7 @@
 **APIC VEST Lab Instructions**
 
+[Lab 0 : Get Started](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab0)
+
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
 service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
@@ -24,8 +26,7 @@ Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/
 [Lab 8: Create and test GraphQL Proxy
 API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
-[Lab 9: Creating GraphQL API with StepZen
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
+[Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
 
 **APIC VEST Lab Resources**
 

@@ -30,8 +30,7 @@ full API Connect installation in Cloud Pak for Integration. The login
 information to the APIC cluster will be sent in a separate email when
 you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
 to access the cluster using the credentials supplied. Make sure you
-login using API Manager User Registry not Common Services
-registry.]**
+login using Common Services registry.]**
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
 service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
@@ -57,6 +56,8 @@ Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/
 [Lab 8: Create and test GraphQL Proxy
 API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
+[Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
+
  Login to API Connect Cloud Manager
 ===========================================================================================
 
@@ -80,11 +81,14 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 	
 4. You will be redirected to the API manager login screen as shown below.
 
+	![](images/api_manager_login.png)
+	
 5. We will first create a provider organization from the Cloud Manager console.
    Hence, change the url to Cloud Manager console by replacing **manager** to **admin** in the url as below.
    
-   From: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/**manager**/sign-in/
-   To: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/**admin**/sign-in/
+   From: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/\**manager\**/sign-in/
+   
+   To: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/\**admin\**/sign-in/
    
 6. Log in to the Cloud Manager console using the **Common Services User Registry** user registry.
 
