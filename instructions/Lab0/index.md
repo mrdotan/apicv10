@@ -148,6 +148,10 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 7. Provider Organization should be created successfully as shown below.
 
    ![](images/provider_org_created.png)
+   
+   Provider organization in Cloud Manager console as shown below.
+
+   ![](images/provider_org_cm.png)      
 
  Summary
 =============================================================
