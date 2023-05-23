@@ -74,27 +74,20 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 	
 	![](images/cloud_pak_login.png)
 	
-3. 	From the Home screen of the cloud pak console, click on the **apic-min**
-	under API lifecycle management.
+3. 	From the Home screen of the cloud pak console, click on the **Integration instances**.
 	
 	![](images/api_management.png)
 	
-4. You will be redirected to the API manager login screen as shown below.
+4. You will see instances of API Gateway, API Manager and API management Administration (Cloud Manager).
+	Click on [[apic-min]] at API management administration to access the Cloud manager console.
 
-	![](images/api_manager_login.png)
+	![](images/cloud_manager.png)
 	
-5. We will first create a provider organization from the Cloud Manager console.
-   Hence, change the url to Cloud Manager console by replacing **manager** to **admin** in the url as below.
-   
-   From: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/manager/sign-in/
-   
-   To: https://cpd-cp4i.apps.daffy-v01ui7hb.cloud.techzone.ibm.com/integration/apis/cp4i/apic-min/auth/admin/sign-in/
-   
-6. Log in to the Cloud Manager console using the **Common Services User Registry** user registry.
+5. Log in to the Cloud Manager console using the **Common Services User Registry** user registry (if prompted).
 
 	![](images/cloud_manager_login.png)
 	
-7. You will be able to see cloud manager console home screen as shown below.
+6. You will be able to see cloud manager console home screen as shown below.
 
 	![](images/cloud_manager_home.png)
 	
