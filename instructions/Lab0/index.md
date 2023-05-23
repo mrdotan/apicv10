@@ -103,15 +103,14 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 	
 1. Click Resources icon in the left navigation menu or Manage Resources tile.
 
-2. Cick Notifications and then Click Create button.
+2. Cick Notifications and then Click Dummy mail server.
 
 	![](images/notifications_email.png)
 	
-3. For the Title, enter [[apic email server]]
-	Address, enter [[smtp-relay.sendinblue.com]]
+3. For the Address, enter [[smtp-relay.sendinblue.com]]
 	Port, enter [[587]]
-	Authenticate user, enter [[]]
-	Authenticate password, enter [[]]
+	Authenticate user, enter [[apic.vest@gmail.com]]
+	Authenticate password will be provided by the instructor.
 	as shown below.
 	
 	![](images/email_configuration.png)	
@@ -122,6 +121,17 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 	![](images/test_email.png)	
 	
 	Make sure that the email is sent successfully and click **Save**.
+	
+ Configure sender email address
+===========================================================================================
+
+1. Click on admin in the top navigation and select My Account.
+
+	![](images/admin_myaccount.png)	
+
+2. Set the email address [[apicvest@apiconnect.com]] and Click **Save**.	
+
+	![](images/admin_account_email.png)	
 
  Create a Provider Organization
 ===========================================================================================
@@ -129,27 +139,18 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 1. Click on Provider Organization icon in the left navigation menu OR 
    Click on Manage Organizations tile from the Cloud Manager console Home.
    
-2. Click [[Add-\>Invite organization owner]] to Invite owner of the provider organization.
+2. Click [[Add-\>Create organization]] to create the provider organization.
    
    ![](images/provider_org.png)
 
-3. Specify your email address as the Owner's email address and Click **Invite**.
-
-   ![](images/invite_owner.png)
+3. For the Title, enter [[VEST]]
+   Select [[Common services user registry]] for user registry.
+   Type [[admin]] for the existing username.
+   Click **Create**
    
-4. Notice appears when the activation email is sent. 
-   
-5. Copy the Activation link (from notice or as recieved in the email) and paste it in new browser window. 
+   ![](images/provider_org_create.png)   
 
-   ![](images/org_activation.png)
-   
-6. Enter [[VEST]] as the New Organization Title and Click **Sign up**.
-
-7. Provider Organization should be created successfully as shown below.
-
-   ![](images/provider_org_created.png)
-   
-   Provider organization in Cloud Manager console as shown below.
+7. Provider Organization should be created successfully as shown below.   
 
    ![](images/provider_org_cm.png)      
 
