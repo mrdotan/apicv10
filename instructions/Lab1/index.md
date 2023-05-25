@@ -70,11 +70,9 @@ for HotelReview. Then, we will import it to the online workspace.
     displays [[\"Your connection is not
     private\"]] click
     Advanced, and then Accept the to continue. Log in with the username
-    ad credentials supplied.
+    ad credentials supplied with Common services user registry.
 
     ![](images/tutorial_html_c7010880ec6f2b94.png)
-
-    ![](images/tutorial_html_228c6cdfd6f4d489.png)
 
 2.  Click on the [[Develop APIs and
     Products]] tile
