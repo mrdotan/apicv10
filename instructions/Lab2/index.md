@@ -88,7 +88,8 @@ using the credentials provided in email.
 
 	![](images/create_portal_confirm.png)
 
-7. Go to the **Portal URL** (shown in confirmation screen) in the new browser window.
+7.  After a few minutes when Developer portal is ready, 
+	Go to the **Portal URL** (shown in confirmation screen) in the new browser window.
 
 8.  API Connect Developer Portal provides consumers access to API
     Catalog information to explore and test APIs, register Applications
@@ -208,6 +209,7 @@ per-API.
     parameters and links to the response schemas.
 
 4.  Click the [[Try it]] tab.
+	Specify the values for **page** and **size** parameters as shown below.
 
     ![](images/tutorial_html_a16511906f41b73.png)
 

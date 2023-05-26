@@ -66,7 +66,17 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 First, we will download the OpenApi file for the existing REST service
 for HotelReview. Then, we will import it to the online workspace.
 
-1.  Open a browser window to the API Manager Portal. If the screen
+1. 	Login to the Cloud pak console (covered in Lab0).
+	From the Home screen of the cloud pak console, click on the **Integration instances**.
+	
+	![](images/api_management.png)
+	
+2. You will see instances of API Gateway, API Manager and API management.
+	Click on [[apic-min]] at API management to access the API manager console.
+
+	![](images/api_manager.png)
+
+3.  Open a browser window to the API Manager Portal. If the screen
     displays [[\"Your connection is not
     private\"]] click
     Advanced, and then Accept the to continue. Log in with the username
@@ -74,28 +84,28 @@ for HotelReview. Then, we will import it to the online workspace.
 
     ![](images/tutorial_html_c7010880ec6f2b94.png)
 
-2.  Click on the [[Develop APIs and
+4.  Click on the [[Develop APIs and
     Products]] tile
     to enter the online development workspace.
 
     ![](images/tutorial_html_61b4022571d0a4a3.png)  
 
-3.  Now you are in the home screen of the online developer tool. From
+5.  Now you are in the home screen of the online developer tool. From
     here, you can begin to create APIs and Products.
 
     ![](images/tutorial_html_333c6b76e2638b45.png)  
 
-4.  Click [[ADD-\>API.]]
+6.  Click [[ADD-\>API.]]
 
     ![](images/tutorial_html_993047b3f798317c.png)  
 
-5.  On the next screen, select [[Existing OpenAPI]] under
+7.  On the next screen, select [[Existing OpenAPI]] under
     Import**,** as in the image below. Then
     click **[Next.]**
 
     ![](images/tutorial_html_b219e12b9ba30a1c.png)  
 
-6.  Now download the[[HotelReview.yaml]] 
+8.  Now download the[[HotelReview.yaml]] 
     file the dte-labs git repository using the following command.
 
     ```
@@ -111,13 +121,13 @@ for HotelReview. Then, we will import it to the online workspace.
 
     ![](images/tutorial_html_64514a49c35e90d4.png)  
 
-7.  **[Do not ]**select **[Activate
+9.  **[Do not ]**select **[Activate
     API]**.
     Click [[Next]].
 
     ![](images/tutorial_html_3e51d8ec0929f2b5.png)  
 
-8.  The API should be imported successfully as shown in the image below.
+10.  The API should be imported successfully as shown in the image below.
     Click [[Edit
     API]].
 
@@ -232,7 +242,7 @@ will configure the proxy call to invoke the endpoint.
     designer.  ![](images/tutorial_html_eda46641cdf764e6.png)
 
 3.  This will open a window from the right to configure. In the URL
-    field, type **[$(target-url)$(request.path)$(request.search)]**. 
+    field, type **$(target-url)$(request.path)$(request.search)**. 
 
 4.  Click [[Save]].
 
