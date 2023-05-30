@@ -100,13 +100,13 @@ for HotelReview. Then, we will import it to the online workspace.
     ![](images/tutorial_html_993047b3f798317c.png)  
 
 7.  On the next screen, select [[Existing OpenAPI]] under
-    Import**,** as in the image below. Then
+    Import, as in the image below. Then
     click **[Next.]**
 
     ![](images/tutorial_html_b219e12b9ba30a1c.png)  
 
 8.  Now download the `HotelReview.yaml` 
-    file the dte-labs git repository using the following command.
+    file in the git repository using the following command.
 
     ```
     curl -OL https://raw.githubusercontent.com/ibm-ecosystem-lab/APICv10/main/hotelreview.yaml
@@ -121,7 +121,7 @@ for HotelReview. Then, we will import it to the online workspace.
 
     ![](images/tutorial_html_64514a49c35e90d4.png)  
 
-9.  **[Do not ]**select **[Activate
+9.  **[Do not ]** select **[Activate
     API]**.
     Click [[Next]].
 
