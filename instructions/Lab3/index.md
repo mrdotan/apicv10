@@ -83,11 +83,11 @@ credentials.
 3.  Specify the following properties and
     click **[Next]** to continue.
 
-    Title: [[oauth]]
+    Title: `oauth`
 
-    Name: [[oauth]]
+    Name: `oauth`
 
-    Gateway Type: [[DataPower API Gateway]]
+    Gateway Type: `DataPower API Gateway`
 
     ![](images/tutorial_html_22f9d0d5c30f657d.png)
 
@@ -108,9 +108,9 @@ credentials.
     for **[sample_scope_1]**, set the
     following fields:
 
-    Name: [[hotelreview]]
+    Name: `hotelreview`
 
-    Description: [[Access to Hotel Review API]]
+    Description: `Access to Hotel Review API`
 
     ![](images/tutorial_html_b42ee8bacaf23a4c.png)
 
@@ -172,7 +172,7 @@ functionality for existing consumers. 
     ![](images/tutorial_html_4f0d083547b597a4.png)
 
 3.  Enter the new version number
-    as [[2.0.0]] and
+    as `2.0.0` and
     click [[Submit]].
 
  Add OAuth security to the HotelReview API
@@ -189,16 +189,16 @@ your OAuth 2.0 provider.
 
 4.  On the API Security Scehmes screen, enter the following:
 
-    -   Name: **[oauth-1]**
+    -   Name: `oauth-1`
 
-    -   Description: [[API OAuth security definition]]
+    -   Description: `API OAuth security definition`
 
-    -   Type: [[OAuth2]]
+    -   Type: `OAuth2`
 
-    -   Flow: [[Resource owner - Password]]
+    -   Flow: `Resource owner - Password`
 
     -   Token URL: keep
-        default [[https://\$(catalog.url)/oauth/oauth2/token]]
+        default `https://$(catalog.url)/oauth/oauth2/token`
 
     -   Leave everything else to the default values and
         click **Save**.  
