@@ -119,7 +119,7 @@ for the financing API.
     Designer menu on the left. Then,
     click **[Add]** to create a new definition.
 
-8. Enter **[paymentAmount]** for **[Name]** and
+8. Enter `paymentAmount` for **[Name]** and
     set the definition **[Type]** 
     to **[object]**.
     
@@ -155,8 +155,7 @@ for the financing API.
 12. The Path screen is loaded. Edit the [[Path name]] to be **[/calculate]** and click Create. 
 	**[Note:]** [Recall that our Base
     Path for this API is \`financing\`. This new path will be appended to
-    the base, creating a final path of       
-    /financing/calculate.]
+    the base, creating a final path of /financing/calculate.]
 
 13. Click [[Add]] in
     the Operations section to define the operation to support under the
@@ -198,8 +197,8 @@ for the financing API.
 17. Set the schema for the response. Delete any existing response e.g. 200 (if exists).
 	Click **Add** in
     the **[Response]** section.
-    Enter [[200]] for [[STATUS CODE]].
-	For [[DESCRIPTION]] enter [[amount calculated successfully]]
+    Enter `200` for **STATUS CODE**.
+	For **DESCRIPTION** enter `amount calculated successfully`
 	Click Create.
 	
 18. Click Create under Schema for the response 
