@@ -81,14 +81,14 @@ Plans to which consumers can subscribe.
 
 4.  Provide the following configuration for the new product:
 
-    Title: [[Think Accessories]]    
+    Title: `Think Accessories` 
 
     ![](images/tutorial_html_8a48fefa2dfaf506.png)
 
 5.  Click **[Next]**.
 
 6.  Select the checkboxes next
-    to **[financing]** and [[logistics]].
+    to **[financing]** and **[logistics]**.
     Then
     click [[Next]].
 
@@ -96,9 +96,9 @@ Plans to which consumers can subscribe.
 
 7.  Provide the following Plan details:
 
-    Title: **[Silver]**
+    Title: `Silver`
 
-    Description: **[Limited access to the Accessories APIs]**
+    Description: `Limited access to the Accessories APIs`
 
     Keep rate limit of 100 with an interval of 1 hour
 
@@ -120,7 +120,7 @@ Plans to which consumers can subscribe.
 
 11. In the Product Setup section, specify the following details:
 
-    Summary: [[The Accessories product will provide really awesome APIs to your application.]]
+    Summary: `The Accessories product will provide really awesome APIs to your application.`
 
 ```
 Contact Name: Thomas Watson
@@ -132,10 +132,10 @@ Contact URL: https://developer.ibm.com/apiconnect/
 ```
 12. Specify a License and Terms of Service:
 
-    License Name: [[The MIT License (MIT)]]
+    License Name: `The MIT License (MIT)`
 
     License
-    URL: [[https://opensource.org/licenses/MIT]]
+    URL: `https://opensource.org/licenses/MIT`
 
     Terms of Service: *paste the contents of the box below:*
 ```
@@ -164,10 +164,9 @@ SOFTWARE.]]
 
 15. Fill in the following details:
 
-    Title: [[Gold]]
+    Title: `Gold`
 
-    Description: **[Unlimited access to the Accessories APIs for approved
-    users]**
+    Description: `Unlimited access to the Accessories APIs for approved users`
 
     Approval: check
 

@@ -82,9 +82,9 @@ Prerequisites: None
 	Enter the following values and click Next. You can use default
     values for the rest.
 
-    Title: swapi
+    Title: `swapi`
 
-    GraphQL server URL: https://swapi-graphql.netlify.app/.netlify/functions/index
+    GraphQL server URL: `https://swapi-graphql.netlify.app/.netlify/functions/index`
 
     ![](images/tutorial_html_f83e60ae96763438.png)
 
@@ -151,7 +151,7 @@ Prerequisites: None
 
 13. Swapi GraphQL backend API doesn't support compression, hence we need to 
     disable the compression. Click the Source button next to Pencil icon at the top 
-	and search for **compression** and set the value to false, as shown below.
+	and search for **compression** and set the value to `false`, as shown below.
 	
 	![](images/compression_flag.png)		
 
