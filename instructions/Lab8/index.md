@@ -1,4 +1,4 @@
-**APIC VEST - Lab 8 -- Creating GraphQL Proxy API**
+**APIC Workshop - Lab 8 -- Creating GraphQL Proxy API**
 
 In this lab, you will explore the how to define GraphQL APIs that proxy
 to a backend GraphQL server. GraphQL is a query language for APIs that
@@ -18,10 +18,10 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Review API Assembly Policies for the cost end point
 
-APIC VEST Series
+APIC Workshop Series
 =======================================================================================================================================================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30

@@ -1,4 +1,4 @@
-**APIC VEST - Lab 6 - Working with API Products**
+**APIC Workshop - Lab 6 - Working with API Products**
 
 Your work as an Application Developer and API Designer is now complete.
 It's time to switch roles and become an API Product Manager. The role
@@ -20,10 +20,10 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Publish a Product
 
- APIC VEST Series
+ APIC Workshop Series
 ====================================================================================================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30
@@ -81,9 +81,7 @@ Plans to which consumers can subscribe.
 
 4.  Provide the following configuration for the new product:
 
-    Title: [[Think Accessories]]
-
-    Name: [[accessories]]
+    Title: [[Think Accessories]]    
 
     ![](images/tutorial_html_8a48fefa2dfaf506.png)
 
@@ -216,6 +214,6 @@ key takeaways:
 
 -   Publish a product.
 
-Continue with the APIC VEST Series! Go
-to [APIC VEST Lab 7 - The Consumer Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7))] to
+Continue with the APIC Workshop Series! Go
+to [APIC Workshop Lab 7 - The Consumer Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7))] to
 explore the consumer experience for APIs that have been exposed to your Sandbox catalog.

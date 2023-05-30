@@ -1,4 +1,4 @@
-**APIC VEST - Lab 9 -- Creating GraphQL API with StepZen**
+**APIC Workshop - Lab 9 -- Creating GraphQL API with StepZen**
 
 In this lab, you will explore how you can quickly expose a REST backend as a GraphQL API. 
 
@@ -14,10 +14,10 @@ In this tutorial, you will do the following activities:
 
 -   Test the GraphQL API
 
-APIC VEST Series
+APIC Workshop Series
 =======================================================================================================================================================================================================================================================================================================
 
-The APIC VEST AP Series is a hands-on workshop with lab exercises that
+The APIC Workshop AP Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30

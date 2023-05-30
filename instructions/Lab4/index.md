@@ -1,4 +1,4 @@
-**APIC VEST Lab 4 - Use Lifecycle Controls to Version your API**
+**APIC Workshop Lab 4 - Use Lifecycle Controls to Version your API**
 
 In the previous lab, you created a new version of the HotelReview API
 which is secured with an OAuth 2.0 provider. At this stage, however, the
@@ -28,10 +28,10 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Testing Your OAuth API in the Developer Portal
 
- APIC VEST Series
+ APIC Workshop Series
 ==================================================================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30
@@ -309,7 +309,7 @@ OAuth is working properly.
  Summary
 ==============================================================
 
-You completed the APIC VEST Lab 4 - Use Lifecycle Controls to Version
+You completed the APIC Workshop Lab 4 - Use Lifecycle Controls to Version
 your API. Throughout the tutorial, you explored the key takeaways:   
 
 -   Create a new API Product.
@@ -318,7 +318,7 @@ your API. Throughout the tutorial, you explored the key takeaways:   
 
 -   Test Your OAuth API in the Developer Portal.
 
-Continue the APIC VEST Series! Go to[ APIC VEST Lab 5 - Advanced API
+Continue the APIC Workshop Series! Go to[ APIC Workshop Lab 5 - Advanced API
 Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5) to
 learn about adding business logic to the API Gateway through the use of
 policies. 

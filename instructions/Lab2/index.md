@@ -1,4 +1,4 @@
-**APIC VEST Lab 2 - The Developer Portal Experience**
+**APIC Workshop Lab 2 - The Developer Portal Experience**
 
 In this lab, we will take the API created in Lab 1 and publish it to a
 Developer Portal, ready for consumption by app developers. We will begin
@@ -16,10 +16,10 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Test API in the Developer Portal
 
- APIC VEST Series
+ APIC Workshop Series
 ==================================================================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30
@@ -238,7 +238,7 @@ and return here to test again.]**
  Summary
 ==============================================================
 
-You completed the APIC VEST Lab 2 - The Developer Portal Experience.
+You completed the APIC Workshop Lab 2 - The Developer Portal Experience.
 Throughout the tutorial, you explored the key takeaways: 
 
 -   Configure Developer Portal and publish the APIs.
@@ -249,7 +249,7 @@ Throughout the tutorial, you explored the key takeaways: 
 
 -   Test API in Developer Portal. 
 
-Continue the APIC VEST Series! Go to [APIC VEST Lab 3 - Add OAuth
+Continue the APIC Workshop Series! Go to [APIC Workshop Lab 3 - Add OAuth
 Security to your
 API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3) to
 learn about configuring an OAuth provider service. 

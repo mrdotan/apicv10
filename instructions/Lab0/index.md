@@ -1,4 +1,4 @@
-**APIC VEST Lab 0 - Get Started**
+**APIC Workshop Lab 0 - Get Started**
 
 In this lab, you will get started with Lab environment and create  
 a Provider Organization.
@@ -15,10 +15,10 @@ In this tutorial, you will explore the following capabilities:
 
 -   Create a Provider Organization.
 
- APIC VEST Series
+ APIC Workshop Series
 ====================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30
@@ -150,7 +150,7 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
  Summary
 =============================================================
 
-You completed the APIC VEST Lab 0 - Get Started. 
+You completed the APIC Workshop Lab 0 - Get Started. 
 Throughout the tutorial, you explored the key takeaways:
 
 -   Access the Lab environment.
@@ -163,5 +163,5 @@ Throughout the tutorial, you explored the key takeaways:
 
 -   Create a Provider Organization.
 
-Continue the APIC VEST! Go to [APIC VEST Lab 1 - Create and Secure an API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1) to
+Continue the APIC Workshop! Go to [APIC Workshop Lab 1 - Create and Secure an API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1) to
 learn how to create and secure a new API using API Connect.

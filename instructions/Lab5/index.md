@@ -1,4 +1,4 @@
-**APIC VEST Lab 5 - Advanced API Assembly**
+**APIC Workshop Lab 5 - Advanced API Assembly**
 
 In the previous labs, you have been working with an API that acts as a
 pass-through to a microservice application.
@@ -23,10 +23,10 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Use GatewayScript directly within an API assembly.
 
-APIC VEST Series
+APIC Workshop Series
 ===================================================================================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30
@@ -363,7 +363,7 @@ API definition.
 
 21. Set the [[Content type]] configuration
     option
-    to [[application/json]],
+    to [[application/json]], Set the [[Definition]] as shown below,
     and then
     click [[Done]] to
     return to the map editor.
@@ -727,6 +727,6 @@ takeaways:
 
 -   Use GatewayScript directly within an API assembly.
 
-Continue with the APIC VEST Series! Go
-to [APIC VEST Lab 6 - Working with API Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6))] to
+Continue with the APIC Workshop Series! Go
+to [APIC Workshop Lab 6 - Working with API Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6))] to
 learn about bundling the API's into a Product and publishing it to the consumer portal.

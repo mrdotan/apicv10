@@ -1,4 +1,4 @@
-**APIC VEST Lab 3 - Add OAuth Security to your API**
+**APIC Workshop Lab 3 - Add OAuth Security to your API**
 
 In this lab, you will secure the HotelReview API to protect the resources
 exposed by **API Connect**. Consumers of your API will be required to
@@ -14,10 +14,10 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Secure the new version of your API.
 
- APIC VEST Series
+ APIC Workshop Series
 ==================================================================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30
@@ -215,7 +215,7 @@ your OAuth 2.0 provider.
  Summary
 ==============================================================
 
-You completed the APIC VEST Lab 3 - Add OAuth Security to your
+You completed the APIC Workshop Lab 3 - Add OAuth Security to your
 API. Throughout the tutorial, you explored the key takeaways:
 
 -   Configure an OAuth 2.0 service, the Resource Owner Password grant
@@ -225,7 +225,7 @@ API. Throughout the tutorial, you explored the key takeaways:
 
 -   Secure the new version of your API.
 
-Continue the APIC VEST Series! Go To [APIC VEST Lab 4 - Use
+Continue the APIC Workshop Series! Go To [APIC Workshop Lab 4 - Use
 Lifecycle controls to version your
 API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4) to
 manage the lifecycle of this API and test your new OAuth secured API.

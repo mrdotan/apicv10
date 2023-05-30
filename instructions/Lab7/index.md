@@ -1,4 +1,4 @@
-**APIC VEST - Lab 7 - The Consumer Experience**
+**APIC Workshop - Lab 7 - The Consumer Experience**
 
 In this lab, you will explore the consumer experience for APIs that have
 been exposed to your Sandbox catalog. Using the Developer Portal, you
@@ -13,10 +13,10 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Consume an API from a sample test application.
 
- APIC VEST Series
+ APIC Workshop Series
 ======================================================================================================================================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30

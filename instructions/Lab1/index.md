@@ -1,4 +1,4 @@
-**APIC VEST Lab 1 - Create and Secure an API**
+**APIC Workshop Lab 1 - Create and Secure an API**
 
 In this lab, you will get a chance to use the online APIC Developer
 Toolkit and its intuitive interface to create a new API using the
@@ -17,10 +17,10 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Publish an API for developers.
 
- APIC VEST Series
+ APIC Workshop Series
 ====================================================================================================================================================================
 
-The APIC VEST Series is a hands-on workshop with lab exercises that
+The APIC Workshop Series is a hands-on workshop with lab exercises that
 walk you through designing, publishing, and securing APIs. This workshop
 is for API developers, architects, and line of business people who want
 to create a successful API strategy. There are 9 labs and each is 30
@@ -337,14 +337,14 @@ lab is written to the gateway. 
 
 8.  The Product is now published successfully with the API base URL
     listed and available for developers from the developer portal. Go
-    to [APIC VEST - Lab 2 - The Developer Portal
+    to [APIC Workshop - Lab 2 - The Developer Portal
     Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2) to
     see how to access this API as a developer.
 
  Summary
 =============================================================
 
-You completed the APIC VEST Lab 1 - Create and Secure an
+You completed the APIC Workshop Lab 1 - Create and Secure an
 API. Throughout the tutorial, you explored the key takeaways:
 
 -   Create an API by importing an OpenAPI definition for an existing
@@ -357,7 +357,7 @@ API. Throughout the tutorial, you explored the key takeaways:
 
 -   Publish an API for developers.
 
-Continue the APIC VEST Series! Go to [APIC VEST Lab 2 - The Developer
+Continue the APIC Workshop Series! Go to [APIC Workshop Lab 2 - The Developer
 Portal
 Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2) to
 learn how to socialize this API and make it available to developers.
