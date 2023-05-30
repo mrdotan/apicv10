@@ -91,13 +91,13 @@ for the financing API.
 
 4. Fill in the form for **Create New OpenAPI** with the following values: 
 
-    **[Title: financing]**
+    Title: `financing`
 
-    **Name: financing**
+    Name: `financing`
 
-    **Base Path: /financing**
+    Base Path: `/financing`
 
-    **Version: 1.0.0**
+    Version: `1.0.0`
 
     Click **Next**
 
@@ -207,7 +207,7 @@ for the financing API.
 
     ![](images/tutorial_html_f584c2696c3ce084.png)
 
-19. Enter **[paymentAmount]** for **[Name]** and
+19. Enter `paymentAmount` for **[Name]** and
     set the definition **[Type]** 
     to **[object]**.
     
@@ -511,15 +511,15 @@ consolidated message for our consumers.
 2.  Edit the **[invoke]** action with the
     following properties:
 
-    -   [[Title:
-        invoke_xyz]]
+    -   Title:
+        `invoke_xyz`
 
-    -   [[URL: $(shipping_svc_url)?company=xyz&from_zip=90210&to_zip=\{zip\}]]
+    -   URL: `$(shipping_svc_url)?company=xyz&from_zip=90210&to_zip={zip}`
 
     -   [[Stop on error: unchecked]]
 
-    -   [[Response object variable (scroll to the bottom):
-        xyz_response]]  ![](images/tutorial_html_8c4d5816115227c1.png)  
+    -   Response object variable (scroll to the bottom):
+        `xyz_response`  ![](images/tutorial_html_8c4d5816115227c1.png)  
          ![](images/tutorial_html_3a71962c80162408.png)
 
     -   **[Note: The  parameter provided here is a reference to the
@@ -536,14 +536,14 @@ consolidated message for our consumers.
 
 4.  Edit the new invoke policy with the following properties:
 
-    -   [[Title:
-        invoke\_cek]]
+    -   Title:
+        `invoke_cek`
 
-    -   [[URL:
-        \$(shipping\_svc\_url)?company=cek&from\_zip=90210&to\_zip=\{zip\} ]]
+    -   URL:
+        `$(shipping_svc_url)?company=cek&from_zip=90210&to_zip={zip}`
 
-    -   [[Response object variable:
-        cek\_response]]  
+    -   Response object variable:
+        `cek_response`  
 
         ![](images/tutorial_html_84608c0a3a93f935.png)
 
@@ -560,33 +560,33 @@ consolidated message for our consumers.
     input]] button.
     Enter the following input configuration:
 
-    -   [[Context variable:
-        xyz\_response.body]]
+    -   Context variable:
+        `xyz_response.body`
 
-    -   [[Name:
-        xyz]]
+    -   Name:
+        `xyz`
 
-    -   [[Content type:
-        application/json]]
+    -   Content type:
+        `application/json`
 
-    -   [[Definition:
-        #/definitions/xyz_shipping_rsp]]
+    -   Definition:
+        `#/definitions/xyz_shipping_rsp`
 
 7.  Click the [[Add
     input]] button
     again to add another input. Specify the following input
     configuration:
 
-    -   [[Context variable:
-        cek_response.body]]
+    -   Context variable:
+        `cek_response.body`
 
-    -   [[Name:cek]]
+    -   Name: `cek`
 
-    -   [[Content type:
-        application/json]]
+    -   Content type:
+        `application/json`
 
-    -   [[Definition:
-        #/definitions/cek_shipping_rsp]]
+    -   Definition:
+        `#/definitions/cek_shipping_rsp`
 
 8.  You now have two inputs assigned to the
     map policy:  ![](images/tutorial_html_1cecd20554b4f15b.png)
@@ -643,17 +643,17 @@ Google Maps link.
     new [[invoke action]] with
     the following properties:
 
-    -   [[Title:
-        invoke\_google\_geolocate  ]]
+    -   Title:
+        `invoke_google_geolocate`
 
-    -   [[URL:
-        [http://geolocation-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/geolocation/v1/location?&address={zip})]]]
+    -   URL:
+        `http://geolocation-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/geolocation/v1/location?&address={zip}`
 
     -   [[Stop on error:
         unchecked ]]
 
-    -   [[Response object variable (scroll to the bottom):
-        google\_geocode\_response]]  ![](images/tutorial_html_c230669eaa51ffee.png)  
+    -   Response object variable (scroll to the bottom):
+        `google_geocode_response`  ![](images/tutorial_html_c230669eaa51ffee.png)  
           ![](images/tutorial_html_bcc946b43e8188.png)
 
 3.  Click [[X]] to

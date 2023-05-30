@@ -102,7 +102,7 @@ API Connect:
 
     ![](images/tutorial_html_1b6ee2ef86d15297.png)
 
-4.  Title this product [[HotelReview Products]] and
+4.  Title this product `HotelReview Products` and
     click [[Next.]]
 
     ![](images/tutorial_html_f9602420f730e70a.png)
