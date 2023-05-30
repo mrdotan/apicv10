@@ -205,8 +205,8 @@ your OAuth 2.0 provider.
 
         ![](images/tutorial_html_9b9f57dc81561ae7.png)
 
-5.  Navigate to the \`Security\` section and check the \`**oauth-1 (OAuth)**\` checkbox. 
-	Make sure \`hotelreview\` is also selected under scope.  
+5.  Navigate to the **Security** section and check the **oauth-1 (OAuth)** checkbox. 
+	Make sure **hotelreview** is also selected under scope.  
 
     ![](images/tutorial_html_c8a8e86664fd2a1.png)
 
