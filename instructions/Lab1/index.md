@@ -105,7 +105,7 @@ for HotelReview. Then, we will import it to the online workspace.
 
     ![](images/tutorial_html_b219e12b9ba30a1c.png)  
 
-8.  Now download the[[HotelReview.yaml]] 
+8.  Now download the `HotelReview.yaml` 
     file the dte-labs git repository using the following command.
 
     ```
@@ -155,7 +155,7 @@ will configure the proxy call to invoke the endpoint.
     on the right. This will open a new view titled [**[Add Object]**[.]]
 
 3.  In the **[Name]** field,
-    type [[client-id]].
+    type `client-id`.
 
 4.  Under **[Type]**, choose [[API
     Key]].
@@ -166,7 +166,7 @@ will configure the proxy call to invoke the endpoint.
     For **[Key Type]** choose [[Client
     ID]].
     In [[Variable
-    Name]] type [[X-IBM-Client-Id]].
+    Name]] type `X-IBM-Client-Id`.
     Your screen should look like the image below. 
 
     ![](images/tutorial_html_9acabae1c0f045ea.png)
@@ -178,14 +178,14 @@ will configure the proxy call to invoke the endpoint.
 7.  Click [[Add]] again
     to add the client secret definition.
 
-8.  Under **[Name,]** type [[secret]].
+8.  Under **[Name,]** type `secret`.
 
 9.  For **[Located
     In]** choose [[Header]].
     For **[Key Type]** choose [[Client
     Secret]].
     In [[Variable
-    Name]] type [[X-IBM-Client-Secret]].
+    Name]] type `X-IBM-Client-Secret`.
     Your screen should look like the image below. 
 
     ![](images/tutorial_html_c8364653a0d1e2f5.png)
@@ -219,13 +219,13 @@ will configure the proxy call to invoke the endpoint.
     targets for the service.
 
 3.  In the **[Property value]** text field,
-    type [http://hotelreview-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/)**[.]**
+    type `http://hotelreview-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/`
 
 4.  Click Add in the [[Catalog Properties]] and select Choose the [Sandbox] for the name and click Create.
 
 5.  Choose [[Sandbox]] and
     for the target-url
-    type [http://hotelreview-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/)
+    type `http://hotelreview-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/`
 
 ![](images/tutorial_html_f977429f6db6091a.png)
 
@@ -242,7 +242,7 @@ will configure the proxy call to invoke the endpoint.
     designer.  ![](images/tutorial_html_eda46641cdf764e6.png)
 
 3.  This will open a window from the right to configure. In the URL
-    field, type **$(target-url)$(request.path)$(request.search)**. 
+    field, type `$(target-url)$(request.path)$(request.search)`. 
 
 4.  Click [[Save]].
 
@@ -315,9 +315,9 @@ lab is written to the gateway. 
     Product]**. Then
     click **[Next]**.
 
-4.  For the Title, enter [**[HotelReview APIs]**[.]] Click **[Next]**.
+4.  For the Title, enter `HotelReview APIs` Click **[Next]**.
 
-5.  Select the **[HotelReview 1.0.0 API]** as
+5.  Select the `HotelReview 1.0.0` API as
     shown in the image below. Then
     click **[Next]**.  
 
