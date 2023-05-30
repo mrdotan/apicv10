@@ -100,9 +100,9 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 	![](images/notifications_email.png)
 	
-3. For the Address, enter [[smtp-relay.sendinblue.com]]
-	Port, enter [[587]]
-	Authenticate user, enter [[apic.vest@gmail.com]]
+3. For the Address, enter `smtp-relay.sendinblue.com`
+	Port, enter `587`
+	Authenticate user, enter `apic.vest@gmail.com`
 	Authenticate password will be provided by the instructor.
 	as shown below.
 	
@@ -122,7 +122,7 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 
 	![](images/admin_myaccount.png)	
 
-2. Set the email address [[apicvest@apiconnect.com]] and Click **Save**.	
+2. Set the email address `apicvest@apiconnect.com` and Click **Save**.	
 
 	![](images/admin_account_email.png)	
 
@@ -136,9 +136,9 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
    
    ![](images/provider_org.png)
 
-3. For the Title, enter [[VEST]]
+3. For the Title, enter `VEST`
    Select [[Common services user registry]] for user registry.
-   Type [[admin]] for the existing username.
+   Type `admin` for the existing username.
    Click **Create**
    
    ![](images/provider_org_create.png)   
