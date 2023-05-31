@@ -3,8 +3,7 @@
 In the previous labs, you have been working with an API that acts as a
 pass-through to a microservice application.
 
-In this lab, you will expand the product offerings for ThinkIBM. In
-addition to the Inventory API, ThinkIBM wishes to provide APIs that
+Think IBM wishes to provide APIs that
 offer financing and shipping logistics to consumer applications. Your
 goal is to utilize existing enterprise and public assets to create these
 API offerings.

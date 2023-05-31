@@ -64,10 +64,9 @@ Prerequisites: Lab 1
  Generate the developer portal
 ====================================================================================
 
-A developer portal for the sandbox catalog was already configured in
-this environment. A consumer account "ibmuser" was also created to use
-the Developer Portal server. In this section, login to Developer Portal
-using the credentials provided in email.
+In this section, we will configure developer portal 
+for the sandbox catalog, sign up and login to Developer Portal.
+
 **Create API Connect Developer Portal site**
 
 1. Login to the API Manager.
@@ -134,7 +133,7 @@ allowed to access the APIs that are being requested. The instructions
 below will guide you through registering your consumer application and
 subscribing it to an API Product.
 
- [Create A New Consumer Application]
+ Create A New Consumer Application
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.  Click [[Apps]] in the top navigation menu
