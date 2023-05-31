@@ -61,33 +61,25 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
  Login to API Connect Cloud Manager
 ===========================================================================================
 
-1. Open a browser window and go to the Pak Installer Portal. 
-   Login using the user id and password provided by the instructors.
-   
-    ![](images/pak_installer_home.png)
-	
-2. Click on the Cloud Pak Console tab and go to the CP4I Web Console url
-   and Login to the Cloud pak console with the super user (admin) and password
-   provided.
+1. Open a browser window and login to the Cloud Pak Console with the url
+   and credentials provided by the instructor.
 
-    ![](images/cloud_pak_console.png)
-	
 	![](images/cloud_pak_login.png)
 	
-3. 	From the Home screen of the cloud pak console, click on the **Integration instances**.
+2. 	From the Home screen of the cloud pak console, click on the **Integration instances**.
 	
 	![](images/api_management.png)
 	
-4. You will see instances of API Gateway, API Manager and API management Administration (Cloud Manager).
+3. You will see instances of API Gateway, API Manager and API management Administration (Cloud Manager).
 	Click on [[apic-min]] at API management administration to access the Cloud manager console.
 
 	![](images/cloud_manager.png)
 	
-5. Log in to the Cloud Manager console using the **Common Services User Registry** user registry (if prompted).
+4. Log in to the Cloud Manager console using the **Common Services User Registry** user registry (if prompted).
 
 	![](images/cloud_manager_login.png)
 	
-6. You will be able to see cloud manager console home screen as shown below.
+5. You will be able to see cloud manager console home screen as shown below.
 
 	![](images/cloud_manager_home.png)
 	
