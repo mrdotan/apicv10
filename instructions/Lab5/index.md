@@ -71,7 +71,7 @@ Prerequisites: Labs 1-4
  Create and Define the Financing API (REST to SOAP)
 =========================================================================================================
 
-ThinkIBM wants to give its customers the ability to calculate financing
+Think IBM wants to give its customers the ability to calculate financing
 payments. There is already a legacy SOAP-based application which will do
 the calculation, but it should be exposed to consumers as a modern
 RESTful API. In this section, you will create a new OpenAPI definition
