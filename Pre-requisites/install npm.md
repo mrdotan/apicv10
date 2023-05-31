@@ -31,7 +31,11 @@ If you already have node.js and npm installed in your system, skip to step 4 to 
 Mac OS
 ===========================================================================================
 
-1. Go to https://github.com/nvm-sh/nvm#installing-and-updating to download and run the install script (install.sh).
+1. Download and run the install script (install.sh) using curl or wget.
+
+	`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
+
+	`wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
 
 2. Verify the installation. 
 
