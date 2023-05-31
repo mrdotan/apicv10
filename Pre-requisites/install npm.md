@@ -19,8 +19,10 @@ If you already have node.js and npm installed in your system, skip to step 4 to 
 	to verify the installation.
 	
 	`nvm list`
+	
 	`npm -v`
-	`node -v'
+	
+	`node -v`
 	
 	You should see the installed version as output as shown below (your version might be different).
 	
@@ -34,8 +36,10 @@ Mac OS
 2. Verify the installation. 
 
 	`nvm list`
+	
 	`npm -v`
-	`node -v'
+	
+	`node -v`
 	
 	You should see the installed version as output
 	
