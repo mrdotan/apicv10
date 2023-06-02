@@ -1,8 +1,10 @@
 Troubleshooting environment access
 =====================================================================================
 
-1. Open a browser window and login to the Cloud Pak Console with the url
-   and credentials provided by the instructor.
-
-	![](images/cloud_pak_login.png)
+1. If you face issue with self signed certificate as shown below,
+	
+	![](images/advanced.png)
+	
+	Open the URL in Chrome incognito browser.
+	Click on Advanced button and then navigate to the url shown.
 	
