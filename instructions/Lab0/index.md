@@ -32,6 +32,8 @@ you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
 to access the cluster using the credentials supplied. Make sure you
 login using Common Services registry.]**
 
+[Lab 0 : Get Started](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab0)
+
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
 service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
 
