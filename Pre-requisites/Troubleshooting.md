@@ -5,6 +5,6 @@ Troubleshooting environment access
 	
 	![](images/advanced.png)
 	
-	Open the URL in Chrome incognito browser.
+	Open the URL in Chrome browser in incognito mode.
 	Click on Advanced button and then navigate to the url shown.
 	
