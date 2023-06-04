@@ -131,7 +131,7 @@ for HotelReview. Then, we will import it to the online workspace.
     Click [[Edit
     API]].
 
-    ![](images/tutorial_html_83ece115b799d430.png)
+   ![](images/tutorial_html_83ece115b799d430.png)
 
  Configure API
 ===================================================================
