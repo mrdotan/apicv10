@@ -31,9 +31,9 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
 
 
 ### Hints
-Create this setup in your environment by following the below steps:
+Use below information for configuring Open LDAP registry:
 
-1) Create a new Open LDAP user registry in cloud manager. Open LDAP credentials will be provided by lab instructor. 
+Create a new Open LDAP user registry in cloud manager. Open LDAP credentials will be provided by lab instructor. 
 
 LDAP Server and port: Will be shared by the instructor
       
