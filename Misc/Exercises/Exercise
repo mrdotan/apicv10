@@ -1,1 +1,11 @@
+A bank has an API Connect instance deployed on a CP4I cluster. They are looking to create:
+       - Isolated API lifecycle management environments to their three business units, namely Retail, Wholesale and Investment
+       - Each of the business units need to have their DEV, UAT and PROD environments
 
+Create this setup in your environment by following the below steps:
+
+1) Create a new Open LDAP user registry in cloud manager. Open LDAP credentials will be provided by lab instructor. 
+
+![](images/open_ldap_config.png)
+
+2) 
