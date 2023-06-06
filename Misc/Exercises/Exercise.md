@@ -21,6 +21,13 @@ Create this setup in your environment by following the below steps:
 
 1) Create a new Open LDAP user registry in cloud manager. Open LDAP credentials will be provided by lab instructor. 
 
+LDAP Server and port: <To be shared by the instructor>
+Authentication method: Compose DN
+Admin DN: `cn=admin,dc=gsilab,dc=ibm,dc=com`
+Password: <To be shared by the instructor>
+Prefix: `uid=`
+Suffix: `,ou=People,dc=gsilab,dc=ibm,dc=com`
+
 ![](images/open_ldap_config.png)
 
 2) 
