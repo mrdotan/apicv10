@@ -16,7 +16,7 @@ A bank has two business units, namely 'Retail' and 'Wholesale'. They are looking
 
 * * Credentials for an Open LDAP server will be provided by the instructor. 
 
-### Hint
+### Hints
 Create this setup in your environment by following the below steps:
 
 1) Create a new Open LDAP user registry in cloud manager. Open LDAP credentials will be provided by lab instructor. 
