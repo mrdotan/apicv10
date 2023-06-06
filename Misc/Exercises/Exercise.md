@@ -18,7 +18,7 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
        
 
 
-* * Credentials for an Open LDAP server will be provided by the instructor. 
+
 
 ### Hints
 Create this setup in your environment by following the below steps:
