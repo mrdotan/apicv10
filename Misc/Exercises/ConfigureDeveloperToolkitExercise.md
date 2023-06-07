@@ -6,7 +6,8 @@ In this exercise you will configure API Connect Developer toolkit locally.
 
 Download the developer toolkit and credetial files for your Operating System (OS) either from Cloud Manager or API Manager
 
-![](images/download_toolkit.jpg)
+![](images/download_toolkit.png)
+
 
 ### Step 2
 
