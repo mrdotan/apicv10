@@ -27,7 +27,7 @@ Run below commands to set the credentials for the toolkit.
 
 `apic client-creds:set <path-to-your-downloads>/credentials.json`
 
-Use the below command to determine the identity provider. 'mgmt_endpoint_url' for you environment will be provided by the instructor.
+Use the below command to determine the identity provider. 'mgmt_endpoint_url' for your environment will be provided by the instructor.
 
 `apic identity-providers:list --scope provider --server <mgmt_endpoint_url> --fields title,realm`
 
