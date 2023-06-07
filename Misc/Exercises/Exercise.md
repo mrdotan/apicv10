@@ -37,7 +37,7 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
        - Create a product namely 'Deposit' and create two plans with the names 'Silver' and 'Gold'. Follow 
          lab6 for directions.
        
-       - Test this product in Sandbox environment
+       - Test this API in Sandbox environment
        
        - Stage this product to DEV env while you are logged in as 'vest3' user. Try to publish it.
        
