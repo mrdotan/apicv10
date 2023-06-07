@@ -44,7 +44,7 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
        
        - Stage and Publish this product to UAT env.
        
-       - Onboard a consumer organiztion, namely 'Fintech' onto DEV environment's developer portal
+       - Onboard a consumer organization, namely 'Fintech' onto DEV environment's developer portal
        
        - Create a consumer application, namely 'BestDeposits'
        
