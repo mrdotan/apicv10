@@ -4,7 +4,7 @@ In this exercise you will configure API Connect Developer toolkit locally.
 
 ### Step 1
 
-Download the developer toolkit and credetial files for your Operating System (OS) either from Cloud Manager or API Manager
+Download the developer toolkit and credetial files for your Operating System (OS) either from Cloud Manager or API Manager.
 
 ![](images/toolkit_download.png)
 
@@ -19,15 +19,15 @@ Extract the 'APIC Designer' and 'apic' CLI files in a directory. You can choose 
 
 ### Step 3
 
-Create workspace directory on you machine
+Create a workspace directory on you machine.
 
 ### Step 4
 
-Run below commands to start the toolkit
+Run below commands to start the toolkit.
 
 `apic client-creds:set <path-to-your-downloads>/credentials.json`
 
-Use the below command to determine the identity provider. 'mgmt_endpoint_url' for you environment will be provided by the instructor
+Use the below command to determine the identity provider. 'mgmt_endpoint_url' for you environment will be provided by the instructor.
 
 `apic identity-providers:list --scope provider --server <mgmt_endpoint_url> --fields title,realm`
 
