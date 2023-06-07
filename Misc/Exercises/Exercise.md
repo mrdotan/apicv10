@@ -47,6 +47,8 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
        
        - Onboard a consumer organiztion, namely 'Fintech' onto DEV environment's developer portal
        
+       - Create a consumer application, namely 'BestDeposits'
+       
        - Subscribe to the product and test from developer portal.
        
        - Test the API from Postman
