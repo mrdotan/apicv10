@@ -28,7 +28,7 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
        - Logout and Login as user 'vest3' into API manager and select 'Retail' organization
        
        - Use the deposit API definition (look at the link to deposit.yaml below under 'Hints') to create an API 
-         in 'Retail'. Secure it with the client-id and client-secret. (You can follow the steps from Lab1)
+         in 'Retail'. Secure it with the client-id and client-secret. (You can follow the steps from Lab1 for guidance)
        
        - Use the below as backend url for deposit API
          http://deposit-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/
