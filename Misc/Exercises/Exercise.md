@@ -21,7 +21,7 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
        
        - Each environment needs to have their own developer portal.
        
-       - Enable API lifecycle approval for 'Stage' and 'Published' states in both DEV and UAT environments. 
+       - Enable API lifecycle approval for 'Stage' and 'Published' states in both DEV and UAT environments 
          for both the organizations. Enable 'Take self-approval' option for simplicity of this exercise.
          
        - In organization 'vest1', enable approval for self service onboarding for both DEV and UAT developer portals.
