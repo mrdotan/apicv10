@@ -18,8 +18,8 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
        - In organization 'vest1', enable approval for self service onboarding for both DEV and UAT developer portals.
        - Logout and Login as user 'vest3' into API manager and select 'Retail' organization
        - Use the deposit API yaml definition (in the same way as you did hotelreview in lab1) to create an API in vest1. Secure it with the client-id and client-secret.
-       - Use this as backend url for deposit API
-         `http://deposit-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/deposit/v1`
+       - Use the below as backend url for deposit API
+         http://deposit-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/deposit/v1
        - Create a product namely 'Deposit' and create two plans with the names 'Silver' and 'Gold'. Follow lab6 for directions.
        - Test this product in Sandbox environment
        - Publish this product to DEV env.
