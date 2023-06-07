@@ -9,6 +9,10 @@ Download the developer toolkit and credetial files for your Operating System (OS
 ![](images/toolkit_download.png)
 
 
+Click on 'Download Toolkit'.
+
+![](images/toolkit_download2.png)
+
 ### Step 2
 
 Extract the 'APIC Designer' and 'apic' CLI files in a directory. You can choose to keep 'credentials.json' and 'designer_credentials.json' files in same of different directory.
