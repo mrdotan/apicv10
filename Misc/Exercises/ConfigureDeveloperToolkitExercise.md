@@ -41,7 +41,7 @@ It will launch the APIC Designer toolkit and ask you to select the workspace. Ch
 
 ![](images/toolkit1.png)
 
-Not select the login method and supply credentials. It will connect the toolkit to your target Provider organization.
+Now select the login method and supply credentials. It will connect the toolkit to your target Provider organization.
 
 ![](images/toolkit2.png)
 
