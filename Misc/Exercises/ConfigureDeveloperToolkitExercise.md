@@ -9,7 +9,7 @@ Download the developer toolkit and credential files for your Operating System (O
 ![](images/toolkit_download.png)
 
 
-Click on 'Download toolkit' download the one with 'CLI + Loopback + API Designer' for your OS.
+Click on 'Download toolkit'. Download the one with 'CLI + Loopback + API Designer' for your OS.
 
 ![](images/toolkit_download2.png)
 
