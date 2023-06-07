@@ -15,7 +15,7 @@ Click on 'Download toolkit'.
 
 ### Step 2
 
-Extract the 'APIC Designer' and 'apic' CLI files in a directory. You can choose to keep 'credentials.json' and 'designer_credentials.json' files in same of different directory.
+Extract the 'APIC Designer' and 'apic' CLI files in a directory. You can choose to keep 'credentials.json' and 'designer_credentials.json' files in the same different directory.
 
 ### Step 3
 
