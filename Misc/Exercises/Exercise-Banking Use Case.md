@@ -61,17 +61,23 @@ Use below information for configuring Open LDAP registry:
 
 Create a new Open LDAP user registry in cloud manager. Open LDAP credentials will be provided by lab instructor. 
 
-##### LDAP Server and port: Will be shared by the instructor
+##### LDAP Server and port: 
+        Will be shared by the instructor
       
-#### Authentication method: Compose DN
+#### Authentication method: 
+        Compose DN
       
-#### Admin DN: `cn=admin,dc=gsilab,dc=ibm,dc=com`
+#### Admin DN: 
+        `cn=admin,dc=gsilab,dc=ibm,dc=com`
       
-#### Password: Will be shared by the instructor
+#### Password: 
+        Will be shared by the instructor
       
-#### Prefix: `uid=`
+#### Prefix: 
+        `uid=`
       
-#### Suffix: `,ou=People,dc=gsilab,dc=ibm,dc=com`
+#### Suffix: 
+        `,ou=People,dc=gsilab,dc=ibm,dc=com`
       
 
 ![](images/open_ldap_config.png)
