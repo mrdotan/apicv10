@@ -58,7 +58,7 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
 
 ### Hints
 
-1) [deposit.yaml](https://raw.githubusercontent.com/ibm-ecosystem-lab/APICv10/main/Misc/Exercises/deposit.yaml) can be downloaded from here.
+1) [deposit.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/deposit.yaml) can be downloaded from here.
 
 2) Use below information for configuring Open LDAP registry:
 
