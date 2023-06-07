@@ -68,16 +68,16 @@ Create a new Open LDAP user registry in cloud manager. Open LDAP credentials wil
         Compose DN
       
 #### Admin DN: 
-        `cn=admin,dc=gsilab,dc=ibm,dc=com`
+        cn=admin,dc=gsilab,dc=ibm,dc=com
       
 #### Password: 
         Will be shared by the instructor
       
 #### Prefix: 
-        `uid=`
+        uid=
       
 #### Suffix: 
-        `,ou=People,dc=gsilab,dc=ibm,dc=com`
+        ,ou=People,dc=gsilab,dc=ibm,dc=com
       
 
 ![](images/open_ldap_config.png)
