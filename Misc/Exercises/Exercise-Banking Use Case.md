@@ -23,7 +23,7 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
        - Enable API lifecycle approval for 'Stage' and 'Published' states in both DEV and UAT environments 
          for both the organizations. Enable 'Take self-approval' option for simplicity of this exercise.
          
-       - In organization 'vest1', enable approval for self service onboarding for both DEV and UAT developer portals.
+       - In organization 'Retail', enable approval for self service onboarding for both DEV and UAT developer portals.
        
        - Logout and Login as user 'vest3' into API manager and select 'Retail' organization
        
