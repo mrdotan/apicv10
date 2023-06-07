@@ -31,7 +31,7 @@ A bank has two organization (business units), namely 'Retail' and 'Wholesale'. T
          Secure it with the client-id and client-secret.
        
        - Use the below as backend url for deposit API
-         http://deposit-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/deposit/v1/
+         http://deposit-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/
          
        - Create a product namely 'Deposit' and create two plans with the names 'Silver' and 'Gold'. Follow 
          lab6 for directions.
