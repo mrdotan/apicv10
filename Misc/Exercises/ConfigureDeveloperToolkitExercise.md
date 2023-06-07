@@ -19,7 +19,7 @@ Extract the 'APIC Designer' and 'apic' CLI files in a directory. You can choose 
 
 ### Step 3
 
-Create a workspace directory on you machine.
+Create a workspace directory on your machine.
 
 ### Step 4
 
