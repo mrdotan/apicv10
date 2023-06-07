@@ -6,6 +6,8 @@ In this exercise you will configure API Connect Developer toolkit locally.
 
 Download the developer toolkit and credetial files for your Operating System (OS) either from Cloud Manager or API Manager
 
+![](images/download_toolkit.jpg)
+
 ### Step 2
 
 Extract the 'APIC Designer' and 'apic' CLI files in a directory. You can choose to keep 'credentials.json' and 'designer_credentials.json' files in same of different directory.
