@@ -78,6 +78,9 @@ Create a new Open LDAP user registry in cloud manager. Open LDAP credentials wil
       
 #### Suffix: 
         ,ou=People,dc=gsilab,dc=ibm,dc=com
+
+#### Credentials for users vest1, vest2 and vest3
+        Will be shared by the instructor
       
 
 ![](images/open_ldap_config.png)
