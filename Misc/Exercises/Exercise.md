@@ -2,7 +2,7 @@
 
 ### Problem Statement
 
-A bank has two organization (business units), namely 'Retail' and 'Wholesale'. They are looking to implement a multi-tenant deployment of API Connect to cater the needs of both the organizations. An API Connect instance has been deployed on a CP4I cluster and you have been tasked to appropriately configure the environments. Following requirements must be met:
+A bank has two organization (business units), namely 'Retail' and 'Wholesale'. They are looking to implement a multi-tenant deployment of API Connect to cater the needs of both the organizations. An API Connect instance has been deployed on a CP4I cluster and you have been tasked to appropriately configure the environments. Note the following requirements and steps:
       
        - API Manager needs to authenticate users from LDAP registry.
        
