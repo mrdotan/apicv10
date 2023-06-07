@@ -23,7 +23,7 @@ Create a workspace directory on you machine.
 
 ### Step 4
 
-Run below commands to start the toolkit.
+Run below commands to set the credentials for the toolkit.
 
 `apic client-creds:set <path-to-your-downloads>/credentials.json`
 
