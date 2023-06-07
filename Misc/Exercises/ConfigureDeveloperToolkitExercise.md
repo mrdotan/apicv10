@@ -29,7 +29,7 @@ Run below commands to start the toolkit
 
 Use the below command to determine the identity provider. 'mgmt_endpoint_url' for you environment will be provided by the instructor
 
-`apic identity-providers:list --scope scope --server <mgmt_endpoint_url> --fields title,realm`
+`apic identity-providers:list --scope provider --server <mgmt_endpoint_url> --fields title,realm`
 
 ![](images/getRealm.png)
 
