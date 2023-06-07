@@ -9,7 +9,7 @@ Download the developer toolkit and credetial files for your Operating System (OS
 ![](images/toolkit_download.png)
 
 
-Click on 'Download Toolkit'.
+Click on 'Download toolkit'.
 
 ![](images/toolkit_download2.png)
 
