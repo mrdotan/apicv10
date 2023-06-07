@@ -37,5 +37,14 @@ Set APIC_DESIGNER_CREDENTIALS OS environment variable for API Designer. For exam
 
 `APIC_DESIGNER_CREDENTIALS=<path-to-your-downloads-dir>/designer_credentials.json open <path-to-downloaded-api-designer-app>/'API Designer.app'`
 
+It will launch the APIC Designer toolkit and ask you to select the workspace. Choose the directory you created in step 3 and proceed.
+
+![](images/toolkit1.png)
+
+Not select the login method and supply credentials. It will connect the toolkit to your target Provider organization.
+
+![](images/toolkit2.png)
+
+Congratulations! You have configured APIC Developer toolkit locally and can proceed with developing APIs.
 
 
