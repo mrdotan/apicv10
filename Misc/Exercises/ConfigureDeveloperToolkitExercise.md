@@ -23,7 +23,19 @@ Create workspace directory on you machine
 
 ### Step 4
 
-Depending on your OS, run below
+Run below commands to start the toolkit
+
+`apic client-creds:set <path-to-your-downloads>/credentials.json`
+
+Use the below command to determine the identity provider. 'mgmt_endpoint_url' for you environment will be provided by the instructor
+
+`apic identity-providers:list --scope scope --server <mgmt_endpoint_url> --fields title,realm`
+
+![](images/getRealm.png)
+
+Set APIC_DESIGNER_CREDENTIALS OS environment variable for API Designer. For example on MAC, user can pass in the environment variable while launching API Designer.
+
+`APIC_DESIGNER_CREDENTIALS=<path-to-your-downloads-dir>/designer_credentials.json open <path-to-downloaded-api-designer-app>/'API Designer.app'`
 
 
 
