@@ -1,22 +1,22 @@
 ## Use Case driven exercise - Banking Use Case
 
 #### This exercise should be done after [ConfigureDeveloperToolkitExercise](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/ConfigureDeveloperToolkitExercise.md)
+
 ### Problem Statement
 
-A bank has two organizations (business units), namely 'Retail' and 'Wholesale'. They are looking to implement a multi-tenant deployment of API Connect to cater the needs of both the organizations. An API Connect instance has been deployed on a CP4I cluster and you have been tasked to appropriately configure the environments. Note the following requirements and steps:
+A bank is looking to implement API lifecycle management using IBM API Connect. You have been tasked to appropriately configure API Connect topology to support various environments, like DEV, UAT, PROD etc. You are supposed to configure two non-production environments, namely DEV and UAT on an API Connect instance.
+Note the following requirements and steps:
       
-       - API Manager needs to authenticate users from LDAP registry.
+       - The organization should support 'DEV' and UAT environments in addition to Sandbox environment
        
-       - Both the organizations need isolated API management environments.
+       - Only the administrators should have ability to publish the products onto DEV and UAT environments
        
-       - Owner of 'Retail' organization should be user 'vest1' from the LDAP registry.
-       
-       - Owner of 'Wholesale' organization should be user 'vest2' from the LDAP registry.
-       
-       - Users of the LDAP registry should be scoped to their API manager environment only 
-         and should not have ability to manage/modify the API Connect cluster.
+       - All the environments, namely Sandbox, DEV and UAT, should have their developer portals
          
-       - Add another user 'vest3' from Open LDAP as developer into both 'Retail' and 'Wholesale' organizations.
+       - Developers should be able to do API development locally on their development toolkit and stage them 
+         onto DEV environment. A user with name 'developer' exists in the openldap registry. Assign this user 
+         'Developer' role
+         
        
        - Both the organizations need to have their DEV and UAT environments.
        
