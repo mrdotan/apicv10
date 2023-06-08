@@ -19,14 +19,14 @@ Note the following requirements and steps:
        - API Developers will develop APIs using API Connect developer toolkit locally and should have ability
          to publish and test in Sandbox environment.
        
-       - API Developers should have ability to 'Stage' the products onto DEV and UAT environments.
+       - API Developers should have ability to request to 'Stage' the products onto DEV and UAT environments.
        
-       - Administrators can review & approve the products to publish to DEV and UAT environments.
+       - Administrators can review & approve the products to stage and publish to DEV and UAT environments.
          
        - A user with name 'developer' exists in the openldap registry. Assign this user 'Developer' role
          in the provider organization.
          
-       - Start API Connect Developer Toolkit and connect to your provider organization using the provided credentials 
+       - Start API Connect Developer Toolkit and connect to the provider organization using the provided credentials 
          for 'developer' user. Ensure that you have selected the correct provider organization (assigned to you)
          in the toolkit.
        
