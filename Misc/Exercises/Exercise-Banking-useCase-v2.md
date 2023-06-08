@@ -1,4 +1,6 @@
 ## Use Case driven exercise - Banking Use Case
+
+#### This exercise should be done after [ConfigureDeveloperToolkitExercise](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/ConfigureDeveloperToolkitExercise.md)
 ### Problem Statement
 
 A bank has two organizations (business units), namely 'Retail' and 'Wholesale'. They are looking to implement a multi-tenant deployment of API Connect to cater the needs of both the organizations. An API Connect instance has been deployed on a CP4I cluster and you have been tasked to appropriately configure the environments. Note the following requirements and steps:
