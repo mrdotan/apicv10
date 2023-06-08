@@ -365,4 +365,4 @@ limits, and tested using Developer Portal.
 
 Continue with the APIC Workshop Series! Go
 to [Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9) to
-learn explore StepZen.
+explore StepZen.
