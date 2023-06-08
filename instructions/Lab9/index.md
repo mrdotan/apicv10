@@ -138,3 +138,7 @@ Congratulations! You have successfully created a GraphQL API for a REST backend.
 
 To learn more about StepZen, visit <https://stepzen.com/docs>
 
+To learn more about Cloud Pak for Integration and API Life Cycle
+Management, visit <https://www.ibm.com/cloud/cloud-pak-for-integration>
+
+
