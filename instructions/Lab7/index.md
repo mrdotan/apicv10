@@ -171,3 +171,8 @@ expected response based on inputs they provide the API.
 
 Congratulations! You have created multiple plans, tested APIs in the
 developer portal, and used the APIs in a consumer application. 
+
+Continue with the APIC Workshop Series! Go
+to [Lab 8: Create and test GraphQL Proxy
+API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8) to
+explore working with GraphQL APIs in API Connect.
