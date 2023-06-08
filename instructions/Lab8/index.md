@@ -363,5 +363,6 @@ Congratulations! You have successfully created a GraphQL Proxy API,
 published the API as part of a Product, applied controls and rate
 limits, and tested using Developer Portal.
 
-To learn more about Cloud Pak for Integration and API Life Cycle
-Management, visit <https://www.ibm.com/cloud/cloud-pak-for-integration>
+Continue with the APIC Workshop Series! Go
+to [Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9) to
+learn explore StepZen.
