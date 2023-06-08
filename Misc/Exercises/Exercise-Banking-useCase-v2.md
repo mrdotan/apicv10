@@ -7,18 +7,25 @@
 A bank is looking to implement API lifecycle management using IBM API Connect. You have been tasked to appropriately configure API Connect topology to support various environments, like DEV, UAT, PROD etc. You are supposed to configure two non-production environments, namely DEV and UAT on an API Connect instance.
 Note the following requirements and steps:
       
-       - The organization should support 'DEV' and UAT environments in addition to Sandbox environment
+       - The organization should support 'DEV' and UAT environments in addition to the Sandbox environment.
        
-       - Only the administrators should have ability to publish the products onto DEV and UAT environments
+       - All the environments, namely Sandbox, DEV and UAT, should have their developer portals.
        
-       - All the environments, namely Sandbox, DEV and UAT, should have their developer portals
+       - API Developers will develop APIs using API Connect developer toolkit locally and should have ability
+         to publish and test in Sandbox environment.
+       
+       - API Developers should have ability to 'Stage' the products onto DEV and UAT environments.
+       
+       - Administrators can review & approve the products to publish to DEV and UAT environments.
          
-       - Developers should be able to do API development locally on their development toolkit and stage them 
-         onto DEV environment. A user with name 'developer' exists in the openldap registry. Assign this user 
-         'Developer' role
+       - A user with name 'developer' exists in the openldap registry. Assign this user 'Developer' role
+         in the provider organization.
          
-       
-       - Both the organizations need to have their DEV and UAT environments.
+       - Start API Connect Developer Toolkit and connect to your provider organization using the provided credentials 
+         for 'developer' user. Ensure that you have selected the correct provider organization (assigned to you)
+         in the toolkit.
+         
+       - 
        
        - Each environment needs to have their own developer portal.
        
@@ -59,6 +66,9 @@ Note the following requirements and steps:
 
 
 ### Hints
+1) Instructor will provide you the API Manager Platform api url to connect from developer toolkit.
 
-1) [deposit.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/deposit.yaml) can be downloaded from here.
+2) Instructor will provide credentials for the 'developer' user in openldap
+
+3) [deposit.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/deposit.yaml) can be downloaded from here.
 
