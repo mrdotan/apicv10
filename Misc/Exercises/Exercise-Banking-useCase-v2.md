@@ -11,6 +11,9 @@ Note the following requirements and steps:
        
        - All the environments, namely Sandbox, DEV and UAT, should have their developer portals.
        
+       - Enable API lifecycle approval for 'Stage' and 'Published' states in both DEV and UAT environments. 
+         Enable 'Take self-approval' option for simplicity of this exercise.
+       
        - API Developers will develop APIs using API Connect developer toolkit locally and should have ability
          to publish and test in Sandbox environment.
        
@@ -25,22 +28,13 @@ Note the following requirements and steps:
          for 'developer' user. Ensure that you have selected the correct provider organization (assigned to you)
          in the toolkit.
          
-       - 
+       - Enable approval for self service onboarding for both DEV and UAT developer portals.
        
-       - Each environment needs to have their own developer portal.
-       
-       - Enable API lifecycle approval for 'Stage' and 'Published' states in both DEV and UAT environments 
-         for both the organizations. Enable 'Take self-approval' option for simplicity of this exercise.
-         
-       - In organization 'Retail', enable approval for self service onboarding for both DEV and UAT developer portals.
-       
-       - Logout and Login as user 'vest3' into API manager and select 'Retail' organization
-       
-       - Use the deposit API definition (look at the link to deposit.yaml below under 'Hints') to create an API 
-         in 'Retail'. Secure it with the client-id and client-secret. (You can follow the steps from Lab1 for guidance)
+       - Use the deposit API definition (look at the link to deposit.yaml below under 'Hints') to create deposit API.
+         Secure it with the client-id and client-secret. (You can follow the steps from Lab1 for guidance)
        
        - Use the below as backend url for deposit API
-         http://deposit-http-ace.apps.ocp-060001q8qm-ada2.cloud.techzone.ibm.com/
+         http://deposit-http-ace.apps.ocp-060001q8qm-o6mi.cloud.techzone.ibm.com/
          
        - Create a product namely 'Deposit' and create two plans with the names 'Silver' and 'Gold'. Follow 
          lab6 for directions.
