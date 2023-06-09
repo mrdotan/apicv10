@@ -6,8 +6,10 @@
     
 ### Problem Statement
 
-An insurance company is looking to implement API lifecycle management using IBM API Connect. You have been tasked to appropriately configure API Connect topology to support various environments, like DEV, UAT, PROD etc. You are supposed to configure two non-production environments, namely DEV and UAT on an API Connect instance.
-Note the following requirements and steps:
+An insurance company is looking to implement API lifecycle management using IBM API Connect. You have 
+been tasked to appropriately configure API Connect topology to support various environments, like DEV, 
+UAT, PROD etc. You are supposed to configure two non-production environments, namely DEV and UAT on an 
+API Connect instance. Note the following requirements and steps:
       
        - The organization should support 'DEV' and UAT environments in addition to the Sandbox environment.
        
@@ -28,12 +30,13 @@ Note the following requirements and steps:
        - A user with name 'developer' exists in the openldap registry. Assign this user 'Developer' role
          in the provider organization.
          
-       - Start API Connect Developer Toolkit and connect to the provider organization using the provided credentials 
-         for 'developer' user. Ensure that you have selected the correct provider organization (assigned to you)
-         in the toolkit.
+       - Start API Connect Developer Toolkit and connect to the provider organization using the provided 
+         credentials for 'developer' user. Ensure that you have selected the correct provider organization
+         (assigned to you) in the toolkit.
        
-       - Use the term_plans API definition (look at the link to term_plans.yaml below under 'Hints') to create term_plans API
-         in developer toolkit. Secure it with the client-id and client-secret. (You can follow the steps from Lab1 for guidance)
+       - Use the term_plans API definition (look at the link to term_plans.yaml below under 'Hints') to create
+         term_plans API in developer toolkit. Secure it with the client-id and client-secret. (You can follow 
+         the steps from Lab1 for guidance)
        
        - Use the below as backend url for deposit API
         http://term-plans-http-ace.apps.ocp-060001q8qm-o6mi.cloud.techzone.ibm.com/
@@ -68,5 +71,6 @@ Note the following requirements and steps:
 
 2) Instructor will provide credentials for the 'developer' user in openldap.
 
-3) [term_plans.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/term_plans.yaml) can be downloaded from here.
+3) [term_plans.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/term_plans.yaml) 
+   can be downloaded from here.
 
