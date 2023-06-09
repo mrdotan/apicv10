@@ -1,10 +1,12 @@
-## Use Case driven exercise - Banking Use Case
+## Use Case driven exercise - Insurance Use Case
 
-#### This exercise should be done after [ConfigureDeveloperToolkitExercise](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/ConfigureDeveloperToolkitExercise.md)
-
+#### Pre-requisites:
+    1) Configure API Connect Developer Toolkit on your local machine
+    2) Configure openldap user registry for API Manager
+    
 ### Problem Statement
 
-A bank is looking to implement API lifecycle management using IBM API Connect. You have been tasked to appropriately configure API Connect topology to support various environments, like DEV, UAT, PROD etc. You are supposed to configure two non-production environments, namely DEV and UAT on an API Connect instance.
+An insurance company is looking to implement API lifecycle management using IBM API Connect. You have been tasked to appropriately configure API Connect topology to support various environments, like DEV, UAT, PROD etc. You are supposed to configure two non-production environments, namely DEV and UAT on an API Connect instance.
 Note the following requirements and steps:
       
        - The organization should support 'DEV' and UAT environments in addition to the Sandbox environment.
