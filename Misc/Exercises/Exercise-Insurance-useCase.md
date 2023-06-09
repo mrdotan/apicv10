@@ -32,15 +32,15 @@ Note the following requirements and steps:
          for 'developer' user. Ensure that you have selected the correct provider organization (assigned to you)
          in the toolkit.
        
-       - Use the deposit API definition (look at the link to deposit.yaml below under 'Hints') to create deposit API
+       - Use the term_plans API definition (look at the link to deposit.yaml below under 'Hints') to create term_plans API
          in developer toolkit. Secure it with the client-id and client-secret. (You can follow the steps from Lab1 for guidance)
        
        - Use the below as backend url for deposit API
-         http://deposit-http-ace.apps.ocp-060001q8qm-o6mi.cloud.techzone.ibm.com/
+        http://term-plans-http-ace.apps.ocp-060001q8qm-o6mi.cloud.techzone.ibm.com/
          
        - Enable the API and test it from the Test and Explorer options in toolkit
          
-       - Create a product namely 'Deposit' and create two plans with the names 'Silver' and 'Gold'. Follow 
+       - Create a product namely 'TermPlans' and create two plans with the names 'Silver' and 'Gold'. Follow 
          lab6 for directions.
        
        - Stage this product to DEV env.
@@ -53,7 +53,7 @@ Note the following requirements and steps:
        
        - Onboard a consumer organization, namely 'Fintech' onto DEV environment's developer portal
        
-       - Create a consumer application, namely 'BestDeposits'
+       - Create a consumer application, namely 'BestPlans'
        
        - Subscribe to the product and test from developer portal.
        
@@ -68,5 +68,5 @@ Note the following requirements and steps:
 
 2) Instructor will provide credentials for the 'developer' user in openldap
 
-3) [deposit.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/deposit.yaml) can be downloaded from here.
+3) [term_plans.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/term_plans.yaml) can be downloaded from here.
 
