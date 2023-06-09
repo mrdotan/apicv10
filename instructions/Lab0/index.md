@@ -97,8 +97,7 @@ API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
 3. For the Address, enter `smtp-relay.sendinblue.com`
 	Port, enter `587`
 	Authenticate user, enter `apic.vest@gmail.com`
-	Authenticate password will be provided by the instructor.
-	as shown below.
+	Authenticate password will be provided by the instructor as shown below.
 	
 	![](images/email_configuration.png)	
 	
