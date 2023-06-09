@@ -1,6 +1,6 @@
 # APICv10
 
-**APICv10 guided lab exercises
+### APICv10 guided lab exercises
 
 [Lab 0 : Get Started](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab0)
 
