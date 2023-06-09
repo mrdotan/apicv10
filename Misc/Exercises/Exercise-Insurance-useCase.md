@@ -32,7 +32,7 @@ Note the following requirements and steps:
          for 'developer' user. Ensure that you have selected the correct provider organization (assigned to you)
          in the toolkit.
        
-       - Use the term_plans API definition (look at the link to deposit.yaml below under 'Hints') to create term_plans API
+       - Use the term_plans API definition (look at the link to term_plans.yaml below under 'Hints') to create term_plans API
          in developer toolkit. Secure it with the client-id and client-secret. (You can follow the steps from Lab1 for guidance)
        
        - Use the below as backend url for deposit API
