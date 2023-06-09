@@ -66,7 +66,7 @@ Note the following requirements and steps:
 ### Hints
 1) Instructor will provide you the API Manager Platform api url to connect from developer toolkit.
 
-2) Instructor will provide credentials for the 'developer' user in openldap
+2) Instructor will provide credentials for the 'developer' user in openldap.
 
 3) [term_plans.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/Misc/Exercises/term_plans.yaml) can be downloaded from here.
 
