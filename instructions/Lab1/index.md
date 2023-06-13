@@ -34,33 +34,33 @@ you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
 to access the cluster using the credentials supplied. Make sure you
 login using Common Services registry.]**
 
-[Lab 0 : Get Started](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab0)
+[Lab 0 : Get Started](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab0)
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
+service](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
+Assembly](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
+Products](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab8)
 
-[Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
+[Lab 9: Creating GraphQL API with StepZen](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab9)
 
  Import API to the Developer Workspace
 ===========================================================================================
@@ -115,7 +115,7 @@ for HotelReview. Then, we will import it to the online workspace.
 
     ```
 
-    You can also down the file using this link : [hotelreview.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/hotelreview.yaml)
+    You can also down the file using this link : [hotelreview.yaml](https://github.com/mrdotan/apicv10/blob/main/hotelreview.yaml)
 
     Choose the downloaded
     [[HotelReview.yaml]] OpenAPI
@@ -340,7 +340,7 @@ lab is written to the gateway. 
 8.  The Product is now published successfully with the API base URL
     listed and available for developers from the developer portal. Go
     to [APIC Workshop - Lab 2 - The Developer Portal
-    Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2) to
+    Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab2) to
     see how to access this API as a developer.
 
  Summary
@@ -361,5 +361,5 @@ API. Throughout the tutorial, you explored the key takeaways:
 
 Continue the APIC Workshop Series! Go to [APIC Workshop Lab 2 - The Developer
 Portal
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2) to
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab2) to
 learn how to socialize this API and make it available to developers.
