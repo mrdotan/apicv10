@@ -32,8 +32,8 @@ API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab8)
 
 **APIC Workshop Lab Resources**
 
-[hotelreview.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/hotelreview.yaml)
+[hotelreview.yaml](https://github.com/mrdotan/apicv10/blob/main/hotelreview.yaml)
 
-[logistics.yaml](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/logistics.yaml)
+[logistics.yaml](https://github.com/mrdotan/apicv10/blob/main/logistics.yaml)
 
-[calculate.wsdl](https://github.com/ibm-ecosystem-lab/APICv10/blob/main/calculate.wsdl)  
+[calculate.wsdl](https://github.com/mrdotan/apicv10/blob/main/calculate.wsdl)  
