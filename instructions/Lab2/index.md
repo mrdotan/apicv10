@@ -33,33 +33,33 @@ you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
 to access the cluster using the credentials supplied. Make sure you
 login using Common Services registry.]**
 
-[Lab 0 : Get Started](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab0)
+[Lab 0 : Get Started](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab0)
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
+service](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
+Assembly](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
+Products](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab8)
 
-[Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
+[Lab 9: Creating GraphQL API with StepZen](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab9)
 
 Prerequisites: Lab 1
 
@@ -79,18 +79,18 @@ for the sandbox catalog, sign up and login to Developer Portal.
 
 4. Click on **Portal** in the left navigation menu, you should see as shown in below image.
 
-	![](images/noportalservice.png)
+    ![](images/noportalservice.png)
 
-5. Click **Create** and select the portal_service to use as shown in below image.	
+5. Click **Create** and select the portal_service to use as shown in below image.   
   
-	![](images/create_portal_service.png)
-	
+    ![](images/create_portal_service.png)
+    
 6. Click **Save** and you should see a confirmation screen as in image below.
 
-	![](images/create_portal_confirm.png)
+    ![](images/create_portal_confirm.png)
 
 7.  After a few minutes when Developer portal is ready, 
-	Go to the **Portal URL** (shown in confirmation screen) in the new browser window.
+    Go to the **Portal URL** (shown in confirmation screen) in the new browser window.
 
 8.  API Connect Developer Portal provides consumers access to API
     Catalog information to explore and test APIs, register Applications
@@ -99,7 +99,7 @@ for the sandbox catalog, sign up and login to Developer Portal.
     Developer Portal looks like below:
 
     ![](images/tutorial_html_df45d2edf6f25ba8.png)
-	
+    
 **Sign up for API Connect Developer Portal**
 
 1. Click **Create account** in the top navigation of the Developer Portal site.
@@ -210,7 +210,7 @@ per-API.
     parameters and links to the response schemas.
 
 4.  Click the [[Try it]] tab.
-	Specify the values for **page** and **size** parameters as shown below.
+    Specify the values for **page** and **size** parameters as shown below.
 
     ![](images/tutorial_html_a16511906f41b73.png)
 
@@ -252,5 +252,5 @@ Throughout the tutorial, you explored the key takeaways: 
 
 Continue the APIC Workshop Series! Go to [APIC Workshop Lab 3 - Add OAuth
 Security to your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3) to
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab3) to
 learn about configuring an OAuth provider service. 
