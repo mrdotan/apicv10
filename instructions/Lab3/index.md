@@ -31,33 +31,33 @@ you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
 to access the cluster using the credentials supplied. Make sure you
 login using Common Services registry.]**
 
-[Lab 0 : Get Started](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab0)
+[Lab 0 : Get Started](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab0)
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
+service](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
+Assembly](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
+Products](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab8)
 
-[Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
+[Lab 9: Creating GraphQL API with StepZen](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab9)
 
 
 Prerequisites: Labs 1-2
@@ -121,11 +121,11 @@ credentials.
 8.  Click [[Create sample user registry]] button.
 
     ![](images/create_sample_user_registry.png)
-	
+    
 9. Select the newly created Sample registry **SampleAuthURL** from the dropdown and Click [[Next]].
 
     ![](images/sample_user_registry.png)
-	
+    
 10. Review your OAuth configuration and
     click [[Finish]].
 
@@ -133,7 +133,7 @@ credentials.
 
 11. Open Sandbox Settings follow
     Home-\>Manage Catalogs-\>Sandbox-\>Catalog Settings->API User Registries.
-	From the Sandbox Catalog registry setting, select API User
+    From the Sandbox Catalog registry setting, select API User
     Registries and Add App Registry.
 
     Use **Edit** option and enable available API registry.
@@ -208,7 +208,7 @@ your OAuth 2.0 provider.
         ![](images/tutorial_html_9b9f57dc81561ae7.png)
 
 5.  Navigate to the **Security** section and check the **oauth-1 (OAuth)** checkbox. 
-	Make sure **hotelreview** is also selected under scope.  
+    Make sure **hotelreview** is also selected under scope.  
 
     ![](images/tutorial_html_c8a8e86664fd2a1.png)
 
@@ -229,5 +229,5 @@ API. Throughout the tutorial, you explored the key takeaways:
 
 Continue the APIC Workshop Series! Go To [APIC Workshop Lab 4 - Use
 Lifecycle controls to version your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4) to
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab4) to
 manage the lifecycle of this API and test your new OAuth secured API.
