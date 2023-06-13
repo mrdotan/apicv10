@@ -37,33 +37,33 @@ you reserve the instance. Use Google Chrome, Firefox or Microsoft Edge
 to access the cluster using the credentials supplied. Make sure you
 login Common Services registry.]**
 
-[Lab 0 : Get Started](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab0)
+[Lab 0 : Get Started](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab0)
 
 [Lab 1 : Create and Secure an API to Proxy an Existing REST Web
-service](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab1)
+service](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab1)
 
 [Lab 2 : The Developer Portal
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab2)
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab2)
 
 [Lab 3 : Add OAuth Security to your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab3)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab3)
 
 [Lab 4 : Use Lifecycle Controls to Version Your
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab4)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab4)
 
 [Lab 5: Advanced API
-Assembly](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab5)
+Assembly](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab5)
 
 [Lab 6: Working with API
-Products](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab6)
+Products](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab6)
 
 [Lab 7: The Consumer
-Experience](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab7)
+Experience](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab7)
 
 [Lab 8: Create and test GraphQL Proxy
-API](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab8)
+API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab8)
 
-[Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9)
+[Lab 9: Creating GraphQL API with StepZen](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab9)
 
 Prerequisites: None
 
@@ -81,7 +81,7 @@ Prerequisites: None
     ![](images/tutorial_html_797b2f887d77017c.png)
 
 3.  We will use SWAPI (The Star Wars API).
-	Enter the following values and click Next. You can use default
+    Enter the following values and click Next. You can use default
     values for the rest.
 
     Title: `swapi`
@@ -153,9 +153,9 @@ Prerequisites: None
 
 13. Swapi GraphQL backend API doesn't support compression, hence we need to 
     disable the compression. Click the Source button next to Pencil icon at the top 
-	and search for **compression** and set the value to `false`, as shown below.
-	
-	![](images/compression_flag.png)		
+    and search for **compression** and set the value to `false`, as shown below.
+    
+    ![](images/compression_flag.png)        
 
 14. Save the changes. To publish the API toggle the button from offline to online.
 
@@ -178,32 +178,32 @@ Prerequisites: None
 
 ```
 query Query {
-	allFilms(last: 10) {
-		edges{node{title}}
-		films {
-			title
-			episodeID
-			vehicleConnection(last: 10) {
-				vehicles {
-					name
-					model
-				}
-			}
-			speciesConnection(last: 1000) {
-				species {
-					name
-					designation
-					classification
-					personConnection(last: 10) {
-						people {
-							name
-							gender
-						}
-					}
-				}
-			}
-		}
-	}
+    allFilms(last: 10) {
+        edges{node{title}}
+        films {
+            title
+            episodeID
+            vehicleConnection(last: 10) {
+                vehicles {
+                    name
+                    model
+                }
+            }
+            speciesConnection(last: 1000) {
+                species {
+                    name
+                    designation
+                    classification
+                    personConnection(last: 10) {
+                        people {
+                            name
+                            gender
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 ```
 
@@ -232,24 +232,24 @@ query Query {
     
 ```
 query Query {
-	allVehicles(last: 10) {
-		edges{node{name}}
-		vehicles {
-			name
-			manufacturers
+    allVehicles(last: 10) {
+        edges{node{name}}
+        vehicles {
+            name
+            manufacturers
       model
       vehicleClass
-			
-			pilotConnection(last: 10) {
-				pilots {
-					name
-					birthYear
-					eyeColor
-					gender
-				}
-			}
-		}
-	}
+            
+            pilotConnection(last: 10) {
+                pilots {
+                    name
+                    birthYear
+                    eyeColor
+                    gender
+                }
+            }
+        }
+    }
 }
 ```
 
@@ -272,8 +272,8 @@ query Query {
     continue to create the swapi-product.
 
     ![](images/tutorial_html_4ae09f5fddd82bab.png)
-	
-4. Select the Default Plan and Click Next.	
+    
+4. Select the Default Plan and Click Next.  
 
 5.  Accept the default for Visibility and Subscribability and Click Next
 
@@ -281,9 +281,9 @@ query Query {
 
 6.  Click Edit Product to Edit the product swapi-product to review the details. 
     
-	![](images/edit-product.png)
+    ![](images/edit-product.png)
 
-7.	The Default Plan contains traditional rate limiting options but you will notice
+7.  The Default Plan contains traditional rate limiting options but you will notice
     another section that list GraphQL Rate Limits.
 
     ![](images/tutorial_html_15d9c2582155eea8.png)
@@ -331,12 +331,12 @@ query Query {
     created.
 
     ![](images/tutorial_html_2fd3cf48168675e5.png)
-	
+    
 5.  Subscribe to swapi product and Click Next.
 
 6.  Review summary and Click Done.
 
-    ![](images/dev_portal_subscription.png)			
+    ![](images/dev_portal_subscription.png)         
 
 7.  Select swapi API to review and test the API. Click swapi to
     continue
@@ -364,5 +364,5 @@ published the API as part of a Product, applied controls and rate
 limits, and tested using Developer Portal.
 
 Continue with the APIC Workshop Series! Go
-to [Lab 9: Creating GraphQL API with StepZen](https://github.com/ibm-ecosystem-lab/APICv10/tree/main/instructions/Lab9) to
+to [Lab 9: Creating GraphQL API with StepZen](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab9) to
 explore StepZen.
