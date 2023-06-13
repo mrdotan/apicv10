@@ -68,15 +68,15 @@ API](https://github.com/mrdotan/apicv10/tree/main/instructions/Lab8)
 First, we will download the OpenApi file for the existing REST service
 for HotelReview. Then, we will import it to the online workspace.
 
-1. 	Login to the Cloud pak console (covered in Lab0).
-	From the Home screen of the cloud pak console, click on the **Integration instances**.
-	
-	![](images/api_management.png)
-	
+1.  Login to the Cloud pak console (covered in Lab0).
+    From the Home screen of the cloud pak console, click on the **Integration instances**.
+    
+    ![](images/api_management.png)
+    
 2. You will see instances of API Gateway, API Manager and API management.
-	Click on [[apic-min]] at API management to access the API manager console.
+    Click on [[apic-min]] at API management to access the API manager console.
 
-	![](images/api_manager.png)
+    ![](images/api_manager.png)
 
 3.  Open a browser window to the API Manager Portal. If the screen
     displays [[\"Your connection is not
@@ -111,7 +111,7 @@ for HotelReview. Then, we will import it to the online workspace.
     file in the git repository using the following command.
 
     ```
-    curl -OL https://raw.githubusercontent.com/ibm-ecosystem-lab/APICv10/main/hotelreview.yaml
+    curl -OL https://raw.githubusercontent.com/mrdotan/apicv10/main/hotelreview.yaml
 
     ```
 
@@ -274,7 +274,7 @@ after creation in the Policies view! 
 4.  Your client Id  and client secret for the sandbox-test-app is
     prefilled.
 
-5.	Add two query parameter to the API request like in the image below.
+5.  Add two query parameter to the API request like in the image below.
     ![](images/queryparam.png)
 
 6.  Scroll all the way to the top of the test view.    
